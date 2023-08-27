@@ -1,0 +1,36 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="basline-ariane">
+    <output-path>$PROJECT_DIR$/out/artifacts/basline_ariane</output-path>
+    <root id="archive" name="basline-ariane.jar">
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q1_SEQPattern.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q1_SEQQuery.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q2_ANDPatternLS.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q2_ANDQueryLS.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q3_ORPatternLS.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q3_ORQueryLS.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q4_NestedORPattern.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q4_NestedORQuery.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q5_NOTPattern.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q5_NOTQuery.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q6_ITERPattern_I1LS.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q6_ITERQuery_I1LS.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q6_ITERQuery_I1T.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q6_ITERQuery_I1T5.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q6_ITERQuery_I1T7.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q6_ITERQuery_I1T9.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q7_ITERPattern_I2LS.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q7_ITERQuery_I2LS.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q8_SEQPatternLS.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q8_SEQQueryLS.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q9_SEQPatternLength2.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q9_SEQPatternLength4.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q9_SEQPatternLength6.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q9_SEQQueryLength2.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q9_SEQQueryLength4.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q9_SEQQueryLength6.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q1_SEQPattern.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q1_1_SEQPattern.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/Q1_2_SEQPattern.java" />
+    </root>
+  </artifact>
+</component>

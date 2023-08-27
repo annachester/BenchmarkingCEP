@@ -1,0 +1,1551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="flink-cep:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fecd0c82-856f-4c0d-bc3b-3555af3a6e21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q1_2_SEQPatternLS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q8_1_SEQPatternLS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q8_2_SEQPatternLS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/LatencyLogger_Iter1Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/LatencyLogger_Iter2Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/LatencyLogger_ORQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/basline_ariane.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/basline_ariane.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/flink_cep_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/flink_cep_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QnV_10%_Q1NDR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QnV_Q1LS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QnV_Q1NDR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QnV_Q7LS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/CollectEcho_SEQ1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQPattern/throughput_10000_loop_1/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQPattern/throughput_10000_loop_1/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQPattern/throughput_10000_loop_1/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQPattern/throughput_20000_loop_2/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQPattern/throughput_20000_loop_2/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQPattern/throughput_20000_loop_2/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQPattern/throughput_50000_loop_1/latency.csv/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQPattern/throughput_50000_loop_1/latency.csv/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQPattern/throughput_50000_loop_1/latency.csv/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQPattern/throughput_50000_loop_1/latency.csv/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQPattern/throughput_50000_loop_1/result_tuples.csv/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQPattern/throughput_50000_loop_1/result_tuples.csv/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQPattern/throughput_50000_loop_1/result_tuples.csv/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQPattern/throughput_50000_loop_1/result_tuples.csv/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQPattern/throughput_50000_loop_1/throughput.csv/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQPattern/throughput_50000_loop_1/throughput.csv/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQPattern/throughput_50000_loop_1/throughput.csv/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQPattern/throughput_50000_loop_1/throughput.csv/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQPatternLS/throughput_250000_loop_1/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQPatternLS/throughput_250000_loop_1/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQPatternLS/throughput_250000_loop_1/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQQuery/throughput_10000_loop_1/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQQuery/throughput_10000_loop_1/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQQuery/throughput_10000_loop_1/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQQuery/throughput_20000_loop_2/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQQuery/throughput_20000_loop_2/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQQuery/throughput_20000_loop_2/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQQuery/throughput_50000_loop_5/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQQuery/throughput_50000_loop_5/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q1_SEQQuery/throughput_50000_loop_5/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q2_ANDPattern/throughput_10000_loop_1/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q2_ANDPattern/throughput_10000_loop_1/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q2_ANDPattern/throughput_10000_loop_1/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q2_ANDPattern/throughput_20000_loop_2/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q2_ANDPattern/throughput_20000_loop_2/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q2_ANDPattern/throughput_20000_loop_2/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q2_ANDQuery/throughput_10000_loop_1/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q2_ANDQuery/throughput_10000_loop_1/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q2_ANDQuery/throughput_10000_loop_1/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q2_ANDQuery/throughput_20000_loop_2/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q2_ANDQuery/throughput_20000_loop_2/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q2_ANDQuery/throughput_20000_loop_2/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q3_ORPattern/throughput_10000_loop_1/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q3_ORPattern/throughput_10000_loop_1/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q3_ORPattern/throughput_10000_loop_1/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q3_ORPattern/throughput_20000_loop_2/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q3_ORPattern/throughput_20000_loop_2/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q3_ORPattern/throughput_20000_loop_2/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q3_ORQuery/throughput_10000_loop_1/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q3_ORQuery/throughput_10000_loop_1/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q3_ORQuery/throughput_10000_loop_1/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q6_ITER1Pattern/throughput_10000_loop_1_iter_5/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q6_ITER1Pattern/throughput_10000_loop_1_iter_5/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q6_ITER1Pattern/throughput_10000_loop_1_iter_5/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q6_ITER1Pattern/throughput_50000_loop_1_iter_5/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q6_ITER1Pattern/throughput_50000_loop_1_iter_5/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q6_ITER1Pattern/throughput_50000_loop_1_iter_5/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q6_ITER1Query/throughput_10000_loop_1_iter_5/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q6_ITER1Query/throughput_10000_loop_1_iter_5/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q6_ITER1Query/throughput_10000_loop_1_iter_5/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q6_ITER1Query/throughput_20000_loop_2_iter_5/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q6_ITER1Query/throughput_20000_loop_2_iter_5/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q6_ITER1Query/throughput_20000_loop_2_iter_5/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_10000_loop_1_iter_2/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_10000_loop_1_iter_2/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_10000_loop_1_iter_2/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_10000_loop_1_iter_5/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_10000_loop_1_iter_5/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_10000_loop_1_iter_5/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_20000_loop_2_iter_2/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_20000_loop_2_iter_2/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_20000_loop_2_iter_2/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_20000_loop_2_iter_5/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_20000_loop_2_iter_5/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_20000_loop_2_iter_5/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_30000_loop_3_iter_2/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_30000_loop_3_iter_2/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_30000_loop_3_iter_2/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_40000_loop_4_iter_2/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_40000_loop_4_iter_2/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_40000_loop_4_iter_2/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_50000_loop_1_iter_5/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_50000_loop_1_iter_5/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_50000_loop_1_iter_5/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_50000_loop_5_iter_2/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_50000_loop_5_iter_2/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_50000_loop_5_iter_2/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_60000_loop_3_iter_5/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_60000_loop_3_iter_5/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_60000_loop_3_iter_5/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_60000_loop_6_iter_2/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_60000_loop_6_iter_2/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_60000_loop_6_iter_2/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_70000_loop_7_iter_2/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_70000_loop_7_iter_2/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Pattern/throughput_70000_loop_7_iter_2/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_10000_loop_1_iter_2/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_10000_loop_1_iter_2/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_10000_loop_1_iter_2/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_10000_loop_1_iter_5/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_10000_loop_1_iter_5/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_10000_loop_1_iter_5/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_1200000_loop_5_iter_5/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_1200000_loop_5_iter_5/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_1200000_loop_5_iter_5/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_20000_loop_2_iter_2/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_20000_loop_2_iter_2/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_20000_loop_2_iter_2/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_20000_loop_2_iter_5/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_20000_loop_2_iter_5/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_20000_loop_2_iter_5/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_240000_loop_4_iter_5/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_240000_loop_4_iter_5/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_240000_loop_4_iter_5/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_30000_loop_3_iter_2/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_30000_loop_3_iter_2/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_30000_loop_3_iter_2/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_36288000000_loop_10_iter_5/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_36288000000_loop_10_iter_5/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_36288000000_loop_10_iter_5/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_3628800000_loop_9_iter_5/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_3628800000_loop_9_iter_5/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_3628800000_loop_9_iter_5/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_40000_loop_4_iter_2/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_40000_loop_4_iter_2/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_40000_loop_4_iter_2/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_403200000_loop_8_iter_5/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_403200000_loop_8_iter_5/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_403200000_loop_8_iter_5/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_50000_loop_5_iter_2/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_50000_loop_5_iter_2/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_50000_loop_5_iter_2/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_50400000_loop_7_iter_5/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_50400000_loop_7_iter_5/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_50400000_loop_7_iter_5/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_60000_loop_3_iter_5/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_60000_loop_3_iter_5/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_60000_loop_3_iter_5/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_60000_loop_6_iter_2/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_60000_loop_6_iter_2/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_60000_loop_6_iter_2/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_7200000_loop_6_iter_5/latency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_7200000_loop_6_iter_5/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Q7_ITER2Query/throughput_7200000_loop_6_iter_5/throughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/SEQ2_non_det_relaxed/throughput_100000_loop_1/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/SEQ2_relaxed/throughput_100000_loop_1/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/SEQ2_strict/throughput_100000_loop_1/result_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/flink_cep_jar/flink-cep.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/flink_cep_jar/flink-cep.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_config/.Baseline.sh.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_config/.SEQ1.sh.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_config/Baseline.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_config/Baseline.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_config/Parameter_PatternLength(I1).sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_config/Parameter_PatternLength(I2).sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_config/Parameter_PatternLength(SEQ).sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_config/Parameter_Selectivity.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_config/Parameter_Windows.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_config/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_config/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_config/SEQ1.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_config/Scalability.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_config/Scalability.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_config/Sequences.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_config/Sequences_all.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_config/Iterations.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_config/flink-conf.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_config/flink-conf.yaml.save" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_config/hs_err_pid36943.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_config/test.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_config/throughputTest.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NewPatternCatalog.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewPatternCatalog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PatternQueryCatalog.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OriginalPatternQueryCatalog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q1_SEQPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q1_SEQPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q1_SEQPatternLS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q1_SEQPatternLS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q1_SEQQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q1_SEQQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q1_SEQQueryLS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q1_SEQQueryLS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q2_ANDPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q2_ANDPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q2_ANDPatternLS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q2_ANDPatternLS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q2_ANDQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q2_ANDQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q2_ANDQueryLS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q2_ANDQueryLS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q3_ORPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q3_ORPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q3_ORPatternLS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q3_ORPatternLS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q3_ORQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q3_ORQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q3_ORQueryLS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q3_ORQueryLS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q4_NestedORPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q4_NestedORQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q5_NOTPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q5_NOTQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q6_ITERPattern_I1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q6_ITERPattern_I1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q6_ITERPattern_I1LS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q6_ITERPattern_I1LS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q6_ITERQuery_I1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q6_ITERQuery_I1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q6_ITERQuery_I1LS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q6_ITERQuery_I1LS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q6_ITERQuery_I1T.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q6_ITERQuery_I1T5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q6_ITERQuery_I1T7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q6_ITERQuery_I1T9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q7_ITERPattern_I2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q7_ITERPattern_I2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q7_ITERPattern_I2LS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q7_ITERPattern_I2LS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q7_ITERQuery_I2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q7_ITERQuery_I2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q7_ITERQuery_I2LS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q7_ITERQuery_I2LS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q8_SEQPatternLS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q8_SEQPatternLS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q8_SEQQueryLS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q9_SEQPatternLength2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q9_SEQPatternLength4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q9_SEQPatternLength6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q9_SEQQueryLength2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q9_SEQQueryLength4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q9_SEQQueryLength6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SEQ1_non_det_relaxed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q1_1_SEQPatternLS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SEQ1_relaxed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q1_1_SEQPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SEQ1_strict.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q1_2_SEQPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SEQ2_Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q8_SEQQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SEQ2_non_det_relaxed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q8_SEQPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SEQ2_relaxed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q8_1_SEQPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SEQ2_strict.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q8_2_SEQPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/CustomDataGeneratorSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/KeyedDataPointGeneral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/KeyedDataPointGeneral.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/LatencyLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/LatencyLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/LatencyLogger_old.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/ThroughputLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ThroughputLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/PatternQueryCatalog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q1_SEQPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q1_SEQQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q2_ANDPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q2_ANDQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q3_ORPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q3_ORQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q4_NestedORPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q4_NestedORQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q5_NOTPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q5_NOTQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q6_ITERPattern_I1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q6_ITERQuery_I1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q6_ITERQuery_I1T.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q6_ITERQuery_I1T5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q6_ITERQuery_I1T7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q6_ITERQuery_I1T9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q7_ITERPattern_I2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q7_ITERQuery_I2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q8_SEQPatternLS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q8_SEQQueryLS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q9_SEQPatternLength2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q9_SEQPatternLength4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q9_SEQPatternLength6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q9_SEQQueryLength2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q9_SEQQueryLength4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/original/Q9_SEQQueryLength6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_R2000070_resultQ9_ASP2.csv/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_R2000070_resultQ9_ASP2.csv/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_R2000070_resultQ9_ASP2.csv/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_R2000070_resultQ9_ASP2.csv/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_R2000070_resultQ9_ASP2.csv/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_SEQ1_non_det_relaxed.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_SEQ1_relaxed.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_ASP.csv/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_ASP.csv/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_ASP.csv/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_ASP.csv/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_ASP.csvlatency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_ASP.csvresult_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_ASP.csvthroughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/29" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/33" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/34" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/37" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/38" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/39" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/40" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/42" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/43" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/44" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/45" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/46" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/47" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/48" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/49" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/51" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/52" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/53" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/55" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/56" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/57" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/58" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/61" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/62" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/63" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ1_CEP.csv/9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ3_CEP.csv/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ3_CEP.csv/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ3_CEP.csv/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_resultQ3_CEP.csv/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_result_SEQ1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_result_SEQ2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/QnV_result_SEQ3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/luftdaten_11245.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/luftdaten_11246.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q1_SEQPattern$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q1_SEQPattern$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q1_SEQPattern$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q1_SEQPattern$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q1_SEQPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q1_SEQPattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q1_SEQPatternLS$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q1_SEQPatternLS$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q1_SEQPatternLS$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q1_SEQPatternLS$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q1_SEQPatternLS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q1_SEQPatternLS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q1_SEQQuery$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q1_SEQQuery$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q1_SEQQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q1_SEQQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q1_SEQQueryLS$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q1_SEQQueryLS$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q1_SEQQueryLS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q1_SEQQueryLS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q2_ANDPattern$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q2_ANDPattern$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q2_ANDPattern$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q2_ANDPattern$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q2_ANDPattern$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q2_ANDPattern$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q2_ANDPattern$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q2_ANDPattern$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q2_ANDPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q2_ANDPattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q2_ANDPatternLS$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q2_ANDPatternLS$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q2_ANDPatternLS$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q2_ANDPatternLS$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q2_ANDPatternLS$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q2_ANDPatternLS$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q2_ANDPatternLS$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q2_ANDPatternLS$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q2_ANDPatternLS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q2_ANDPatternLS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q2_ANDQuery$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q2_ANDQuery$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q2_ANDQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q2_ANDQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q2_ANDQueryLS$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q2_ANDQueryLS$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q2_ANDQueryLS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q2_ANDQueryLS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q3_ORPattern$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q3_ORPattern$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q3_ORPattern$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q3_ORPattern$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q3_ORPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q3_ORPattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q3_ORPatternLS$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q3_ORPatternLS$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q3_ORPatternLS$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q3_ORPatternLS$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q3_ORPatternLS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q3_ORPatternLS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q3_ORQuery$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q3_ORQuery$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q3_ORQuery$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q3_ORQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q3_ORQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q3_ORQueryLS$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q3_ORQueryLS$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q3_ORQueryLS$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q3_ORQueryLS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q3_ORQueryLS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q4_NestedORPattern$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q4_NestedORPattern$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q4_NestedORPattern$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q4_NestedORPattern$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q4_NestedORPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q4_NestedORQuery$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q4_NestedORQuery$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q4_NestedORQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q5_NOTPattern$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q5_NOTPattern$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q5_NOTPattern$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q5_NOTPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q5_NOTQuery$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q5_NOTQuery$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q5_NOTQuery$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q5_NOTQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERPattern_I1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q6_ITERPattern_I1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERPattern_I1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q6_ITERPattern_I1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERPattern_I1LS$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q6_ITERPattern_I1LS$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERPattern_I1LS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q6_ITERPattern_I1LS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1LS$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1LS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1LS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1T$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1T$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1T.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1T5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1T5$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1T5$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1T5$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1T5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1T7$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1T7$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1T7$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1T7$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1T7$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1T7$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1T7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1T9$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1T9$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1T9$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1T9$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1T9$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1T9$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1T9$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1T9$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q6_ITERQuery_I1T9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q7_ITERPattern_I2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q7_ITERPattern_I2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q7_ITERPattern_I2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q7_ITERPattern_I2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q7_ITERPattern_I2LS$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q7_ITERPattern_I2LS$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q7_ITERPattern_I2LS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q7_ITERPattern_I2LS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q7_ITERQuery_I2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q7_ITERQuery_I2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q7_ITERQuery_I2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q7_ITERQuery_I2$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q7_ITERQuery_I2$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q7_ITERQuery_I2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q7_ITERQuery_I2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q7_ITERQuery_I2LS$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q7_ITERQuery_I2LS$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q7_ITERQuery_I2LS$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q7_ITERQuery_I2LS$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q7_ITERQuery_I2LS$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q7_ITERQuery_I2LS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q7_ITERQuery_I2LS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q8_SEQPatternLS$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q8_SEQPatternLS$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q8_SEQPatternLS$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q8_SEQPatternLS$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q8_SEQPatternLS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Q8_SEQPatternLS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q8_SEQQueryLS$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q8_SEQQueryLS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQPatternLength2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQPatternLength2$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQPatternLength2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQPatternLength4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQPatternLength4$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQPatternLength4$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQPatternLength4$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQPatternLength4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQPatternLength6$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQPatternLength6$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQPatternLength6$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQPatternLength6$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQPatternLength6$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQPatternLength6$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQPatternLength6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQQueryLength2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQQueryLength2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQQueryLength4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQQueryLength4$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQQueryLength4$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQQueryLength4$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQQueryLength4$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQQueryLength4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQQueryLength6$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQQueryLength6$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQQueryLength6$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQQueryLength6$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQQueryLength6$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQQueryLength6$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQQueryLength6$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQQueryLength6$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQQueryLength6$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Q9_SEQQueryLength6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_R2000070_resultQ9_ASP2.csv/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_R2000070_resultQ9_ASP2.csv/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_R2000070_resultQ9_ASP2.csv/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_R2000070_resultQ9_ASP2.csv/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_R2000070_resultQ9_ASP2.csv/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_SEQ1_non_det_relaxed.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_SEQ1_relaxed.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_ASP.csv/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_ASP.csv/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_ASP.csv/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_ASP.csv/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_ASP.csvlatency.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_ASP.csvresult_tuples.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_ASP.csvthroughput.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/29" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/33" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/34" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/37" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/38" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/39" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/40" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/42" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/43" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/44" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/45" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/46" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/47" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/48" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/49" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/51" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/52" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/53" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/55" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/56" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/57" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/58" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/61" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/62" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/63" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ1_CEP.csv/9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ3_CEP.csv/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ3_CEP.csv/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ3_CEP.csv/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_resultQ3_CEP.csv/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_result_SEQ1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_result_SEQ2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QnV_result_SEQ3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ1_non_det_relaxed$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ1_non_det_relaxed$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ1_non_det_relaxed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ1_relaxed$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ1_relaxed$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ1_relaxed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ1_strict$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ1_strict$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ1_strict.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ2_Query.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ2_non_det_relaxed$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ2_non_det_relaxed$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ2_non_det_relaxed$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ2_non_det_relaxed$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ2_non_det_relaxed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ2_relaxed$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ2_relaxed$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ2_relaxed$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ2_relaxed$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ2_relaxed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ2_strict$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ2_strict$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ2_strict$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ2_strict$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SEQ2_strict.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/luftdaten_11245.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/luftdaten_11246.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/KeyedDataPointGeneral.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/KeyedDataPointGeneral.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/LatencyLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/LatencyLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/LatencyLogger_old.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/ThroughputLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/ThroughputLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/flink-cep-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/flink-cep-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-flink-cep-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-flink-cep-1.0-SNAPSHOT.jar" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PatternQueryCatalog.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="357">
+                <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Q1_SEQPattern.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="12" selection-end-line="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test_pattern.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="45" column="71" lean-forward="true" selection-start-line="45" selection-start-column="71" selection-end-line="45" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3297#3544#0" expanded="true" />
+                <element signature="e#3543#3544#0" expanded="true" />
+                <element signature="e#3614#4202#0" expanded="true" />
+                <element signature="e#4201#4202#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/KeyedDataPointSourceFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/CustomDataGeneratorSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="11" column="76" lean-forward="true" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2122#2123#0" expanded="true" />
+                <element signature="e#2149#2150#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-cep_2.11/1.11.6/flink-cep_2.11-1.11.6.jar!/org/apache/flink/cep/pattern/Pattern.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts_config/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts_config/flink-conf.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-969" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts_config/Parameter_Windows.sh">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-204" />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>keyeddataPointNASDAQ</find>
+      <find>input data</find>
+      <find>next</find>
+      <find>source</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.11.6/flink-core-1.11.6.jar!/org/apache/flink/api/common/functions/RichFlatMapFunction.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.11.6/flink-streaming-java_2.11-1.11.6.jar!/org/apache/flink/streaming/api/datastream/DataStream.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.11.6/flink-streaming-java_2.11-1.11.6.jar!/org/apache/flink/streaming/api/operators/StreamFlatMap.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.11.6/flink-streaming-java_2.11-1.11.6.jar!/org/apache/flink/streaming/runtime/tasks/OneInputStreamTask.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/util/UDFs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Q3_ORPattern.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_pattern.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/CustomDataGeneratorSource.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: -1
+}</component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="2728" />
+    <option name="y" value="-345" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectId" id="2RQJtkrNLfmocu6wW8DTdjLk1AE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="flink-cep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CEP2ASP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-cep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CEP2ASP" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts_config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-cep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CEP2ASP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-cep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CEP2ASP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-cep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CEP2ASP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-cep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CEP2ASP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Anna/Documents/Master/SS_23/BDSPRO/CEP2ASP_17_07/CEP2ASP/scripts_config&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
+    <layout>
+      <window_info id="Space Code Reviews" />
+      <window_info id="Bookmarks" side_tool="true" />
+      <window_info id="Merge Requests" />
+      <window_info id="Commit_Guest" />
+      <window_info id="Pull Requests" sideWeight="0.50051546" weight="0.32994792" />
+      <window_info id="Learn" />
+      <window_info id="Commit" order="0" weight="0.25" />
+      <window_info active="true" id="Structure" order="1" side_tool="true" visible="true" weight="0.32980278" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.32980278" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info anchor="bottom" id="Profiler" />
+      <window_info anchor="bottom" id="Build" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="File Transfer" />
+      <window_info anchor="bottom" id="Run" weight="0.33028847" />
+      <window_info anchor="bottom" id="Services" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems View" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Endpoints" />
+      <window_info anchor="right" id="Meet New UI" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="Database" order="1" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Anna\Documents\Master\SS_23\BDSPRO\CEP2ASP_17_07\CEP2ASP\scripts_config" />
+      <recent name="D:\TUBerlin\DIMA\BDSPRO\smieci\CEP2ASP\scripts_config" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/original" />
+      <recent name="$PROJECT_DIR$/scripts_config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Anna\Documents\Master\SS_23\BDSPRO\CEP2ASP_17_07\CEP2ASP\scripts_config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="util" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Q1_SEQPattern">
+    <configuration name="Q1_1_SEQPattern (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q1_1_SEQPattern" />
+      <module name="flink-cep" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q1_1_SEQPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q1_1_SEQPattern" />
+      <module name="flink-cep" />
+      <option name="PROGRAM_PARAMETERS" value="--input ./or10%.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q1_1_SEQPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q1_1_SEQPattern" />
+      <module name="flink-cep" />
+      <option name="PROGRAM_PARAMETERS" value="--input ./src/main/resources/QnV.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q1_2_SEQPattern" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q1_2_SEQPattern" />
+      <module name="flink-cep" />
+      <option name="PROGRAM_PARAMETERS" value="--input ./src/main/resources/QnV.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q1_SEQPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q1_SEQPattern" />
+      <module name="flink-cep" />
+      <option name="PROGRAM_PARAMETERS" value=" --input ./src/main/resources/QnV.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q1_SEQPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q1_SEQPattern" />
+      <module name="flink-cep" />
+      <option name="PROGRAM_PARAMETERS" value="--input ./src/main/resources/QnV_1NDR.csv " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q1_SEQPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q1_SEQPattern" />
+      <module name="flink-cep" />
+      <option name="PROGRAM_PARAMETERS" value="--input ./src/main/resources/QnV.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q1_SEQQuery" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q1_SEQQuery" />
+      <module name="flink-cep" />
+      <option name="PROGRAM_PARAMETERS" value="--input ./src/main/resources/QnV.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q2_ANDPatternLS" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q2_ANDPatternLS" />
+      <module name="flink-cep" />
+      <option name="PROGRAM_PARAMETERS" value="--input ./src/main/resources/QnV.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q2_ANDQueryLS" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q2_ANDQueryLS" />
+      <module name="flink-cep" />
+      <option name="PROGRAM_PARAMETERS" value="--input ./src/main/resources/QnV.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q3_ORPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q3_ORPattern" />
+      <module name="flink-cep" />
+      <option name="PROGRAM_PARAMETERS" value="--input ./src/main/resources/QnV.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q3_ORPatternLS" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q3_ORPatternLS" />
+      <module name="flink-cep" />
+      <option name="PROGRAM_PARAMETERS" value="--input ./src/main/resources/QnV.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q3_ORQuery" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q3_ORQuery" />
+      <module name="flink-cep" />
+      <option name="PROGRAM_PARAMETERS" value="--input ./src/main/resources/QnV.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q3_ORQueryLS" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q3_ORQueryLS" />
+      <module name="flink-cep" />
+      <option name="PROGRAM_PARAMETERS" value="--input ./src/main/resources/QnV.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q6_ITERPattern_I1" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q6_ITERPattern_I1" />
+      <module name="flink-cep" />
+      <option name="PROGRAM_PARAMETERS" value="--input ./src/main/resources/QnV.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q6_ITERPattern_I1LS" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q6_ITERPattern_I1LS" />
+      <module name="flink-cep" />
+      <option name="PROGRAM_PARAMETERS" value="--input ./src/main/resources/QnV.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q6_ITERQuery_I1" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q6_ITERQuery_I1" />
+      <module name="flink-cep" />
+      <option name="PROGRAM_PARAMETERS" value="--input ./src/main/resources/QnV.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q6_ITERQuery_I1LS" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q6_ITERQuery_I1LS" />
+      <module name="flink-cep" />
+      <option name="PROGRAM_PARAMETERS" value="--input ./src/main/resources/QnV.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q7_ITERPattern_I2LS" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q7_ITERPattern_I2LS" />
+      <module name="flink-cep" />
+      <option name="PROGRAM_PARAMETERS" value="--input ./src/main/resources/QnV.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q7_ITERPattern_I2LS" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q7_ITERPattern_I2LS" />
+      <module name="flink-cep" />
+      <option name="PROGRAM_PARAMETERS" value="--input ./src/main/resources/QnV.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q7_ITERQuery_I2LS" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q7_ITERQuery_I2LS" />
+      <module name="flink-cep" />
+      <option name="PROGRAM_PARAMETERS" value="--input ./src/main/resources/QnV.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q8_1_SEQPattern" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q8_1_SEQPattern" />
+      <module name="flink-cep" />
+      <option name="PROGRAM_PARAMETERS" value="--input ./src/main/resources/QnV.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q8_2_SEQPattern" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q8_2_SEQPattern" />
+      <module name="flink-cep" />
+      <option name="PROGRAM_PARAMETERS" value="--input ./src/main/resources/QnV.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q8_SEQPattern" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q8_SEQPattern" />
+      <module name="flink-cep" />
+      <option name="PROGRAM_PARAMETERS" value="--input ./src/main/resources/QnV.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SEQ1_non_det_relaxed (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SEQ1_non_det_relaxed" />
+      <module name="flink-cep" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="CEP2ASP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="CEP2ASP" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Q6_ITERPattern_I1" />
+      <item itemvalue="Application.Q3_ORQuery" />
+      <item itemvalue="Application.Q6_ITERQuery_I1" />
+      <item itemvalue="Application.Q1_2_SEQPattern" />
+      <item itemvalue="Application.Q8_1_SEQPattern" />
+      <item itemvalue="Application.Q8_2_SEQPattern" />
+      <item itemvalue="Application.Q8_SEQPattern" />
+      <item itemvalue="Application.Q2_ANDPatternLS" />
+      <item itemvalue="Application.Q2_ANDQueryLS" />
+      <item itemvalue="Application.Q3_ORPatternLS" />
+      <item itemvalue="Application.Q3_ORQueryLS" />
+      <item itemvalue="Application.Q6_ITERPattern_I1LS" />
+      <item itemvalue="Application.Q6_ITERQuery_I1LS" />
+      <item itemvalue="Application.Q7_ITERPattern_I2LS" />
+      <item itemvalue="Application.Q7_ITERQuery_I2LS" />
+      <item itemvalue="Application.Q1_SEQQuery" />
+      <item itemvalue="Application.Q3_ORPattern" />
+      <item itemvalue="Application.Q1_1_SEQPattern (1)" />
+      <item itemvalue="Application.SEQ1_non_det_relaxed (1)" />
+      <item itemvalue="Application.Q1_1_SEQPattern" />
+      <item itemvalue="Application.Q1_SEQPattern" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Q1_SEQPattern" />
+        <item itemvalue="Application.Q1_1_SEQPattern" />
+        <item itemvalue="Application.Q3_ORPattern" />
+        <item itemvalue="Application.Q1_1_SEQPattern (1)" />
+        <item itemvalue="Application.Q1_SEQPattern" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fecd0c82-856f-4c0d-bc3b-3555af3a6e21" name="Default Changelist" comment="" />
+      <created>1686216794148</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686216794148</updated>
+      <workItem from="1686216801003" duration="15724000" />
+      <workItem from="1687176595200" duration="558000" />
+      <workItem from="1687177620461" duration="81000" />
+      <workItem from="1687177721456" duration="22627000" />
+      <workItem from="1689009011791" duration="6477000" />
+      <workItem from="1689066932945" duration="40033000" />
+      <workItem from="1689165374449" duration="2361000" />
+      <workItem from="1689175885860" duration="41000" />
+      <workItem from="1689176020081" duration="83000" />
+      <workItem from="1689176113989" duration="9000" />
+      <workItem from="1689176134819" duration="140000" />
+      <workItem from="1689176286174" duration="114000" />
+      <workItem from="1689176806619" duration="87000" />
+      <workItem from="1689176905236" duration="3953000" />
+      <workItem from="1689326123434" duration="5219000" />
+      <workItem from="1689350321288" duration="711000" />
+      <workItem from="1689351890092" duration="2499000" />
+      <workItem from="1689423363263" duration="4794000" />
+      <workItem from="1689428170448" duration="3191000" />
+      <workItem from="1689443054133" duration="2977000" />
+      <workItem from="1689495865001" duration="192000" />
+      <workItem from="1689496069186" duration="42000" />
+      <workItem from="1689496370057" duration="5493000" />
+      <workItem from="1689940801848" duration="3420000" />
+      <workItem from="1690145570991" duration="9380000" />
+      <workItem from="1690190308202" duration="3462000" />
+      <workItem from="1690212227002" duration="6269000" />
+      <workItem from="1690288620757" duration="45000" />
+      <workItem from="1690289051069" duration="3263000" />
+      <workItem from="1690292572800" duration="1368000" />
+      <workItem from="1690294132196" duration="79000" />
+      <workItem from="1690294250076" duration="92000" />
+      <workItem from="1690298730116" duration="1831000" />
+      <workItem from="1690368079830" duration="194000" />
+      <workItem from="1690368838521" duration="19040000" />
+      <workItem from="1690449082885" duration="15572000" />
+      <workItem from="1690539409443" duration="26350000" />
+      <workItem from="1690707701405" duration="41165000" />
+      <workItem from="1690833900075" duration="995000" />
+      <workItem from="1690882455767" duration="9481000" />
+      <workItem from="1690895740385" duration="242000" />
+      <workItem from="1690899473491" duration="1790000" />
+      <workItem from="1690965644573" duration="14100000" />
+      <workItem from="1691066125542" duration="8387000" />
+      <workItem from="1691145534009" duration="24328000" />
+      <workItem from="1691249288932" duration="309000" />
+      <workItem from="1691340623505" duration="2650000" />
+      <workItem from="1691487555732" duration="13377000" />
+      <workItem from="1691509735806" duration="2684000" />
+      <workItem from="1691512709814" duration="877000" />
+      <workItem from="1691520857732" duration="450000" />
+      <workItem from="1691522345101" duration="5883000" />
+      <workItem from="1691705507540" duration="1183000" />
+      <workItem from="1691760269837" duration="7373000" />
+      <workItem from="1691854501573" duration="4801000" />
+      <workItem from="1691915279854" duration="1382000" />
+      <workItem from="1692874989060" duration="9121000" />
+      <workItem from="1692954474164" duration="2938000" />
+      <workItem from="1693134767538" duration="3223000" />
+      <workItem from="1693174664071" duration="4285000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15724000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2728" y="-345" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17590618" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.3177874" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32891247" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.55748373" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.13129973" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.17590618" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32891247" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.3177874" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.18112798" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.13129973" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.IOException" package="java.io" />
+          <option name="timeStamp" value="9" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>patternStream2.flatSelect(new UDFs.GetResultTuple()).print()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>patternStream.flatSelect(new UDFs.GetResultTuple()).print()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>patternStream.flatSelect(new UDFs.GetResultTuple())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/KeyedDataPointGeneral.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-537">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/DataPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-cep_2.11/1.11.6/flink-cep_2.11-1.11.6.jar!/org/apache/flink/cep/PatternFlatSelectFunction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/UDFs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="152" selection-start-line="152" selection-start-column="2" selection-end-line="176" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts_config/Parameter_PatternLength(I2).sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts_config/Parameter_PatternLength(I1).sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Q1_SEQQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="77" column="76" selection-start-line="77" selection-start-column="76" selection-end-line="77" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/QnV_resultQ1_ASP.csv/4">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/QnV_resultQ1_ASP.csv/3">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.11.6/flink-streaming-java_2.11-1.11.6.jar!/org/apache/flink/streaming/api/datastream/DataStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="398" column="17" selection-start-line="398" selection-start-column="17" selection-end-line="398" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Q3_ORQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Q3_ORPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="75" column="87" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Q2_ANDPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-799">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Q4_NestedORPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/QnV_resultQ3_CEP.csv/1">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/QnV_resultQ3_CEP.csv/2">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/QnV_resultQ3_CEP.csv/3">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapping.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts_config/Parameter_Windows.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts_config/flink-conf.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-969" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-204" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts_config/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PatternQueryCatalog.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="357">
+            <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-cep_2.11/1.11.6/flink-cep_2.11-1.11.6.jar!/org/apache/flink/cep/pattern/Pattern.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Q1_SEQPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="45" column="71" lean-forward="true" selection-start-line="45" selection-start-column="71" selection-end-line="45" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3297#3544#0" expanded="true" />
+            <element signature="e#3543#3544#0" expanded="true" />
+            <element signature="e#3614#4202#0" expanded="true" />
+            <element signature="e#4201#4202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/KeyedDataPointSourceFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/CustomDataGeneratorSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="11" column="76" lean-forward="true" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2122#2123#0" expanded="true" />
+            <element signature="e#2149#2150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

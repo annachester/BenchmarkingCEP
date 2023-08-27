@@ -1,0 +1,16 @@
+throughput: $100000$, workers: $1$, logging frequency: $1$ second
+Worker $0$, elements/second: $6278$, MB/sec: $0.5328578948974609$
+Worker $0$, elements/second: $16642$, MB/sec: $1.4125232696533203$
+Worker $0$, elements/second: $25572$, MB/sec: $2.1704750061035156$
+Worker $0$, elements/second: $28716$, MB/sec: $2.437328338623047$
+Worker $0$, elements/second: $27920$, MB/sec: $2.3697662353515625$
+Worker $0$, elements/second: $28394$, MB/sec: $2.4099979400634766$
+Worker $0$, elements/second: $26180$, MB/sec: $2.2220802307128906$
+Worker $0$, elements/second: $15960$, MB/sec: $1.3546371459960938$
+Worker $0$, elements/second: $15960$, MB/sec: $1.3546371459960938$
+Worker $0$, elements/second: $16000$, MB/sec: $1.3580322265625$
+Worker $0$, elements/second: $15960$, MB/sec: $1.3546371459960938$
+Worker $0$, elements/second: $15960$, MB/sec: $1.3546371459960938$
+Worker $0$, elements/second: $15960$, MB/sec: $1.3546371459960938$
+Worker $0$, elements/second: $16000$, MB/sec: $1.3580322265625$
+Worker $0$, elements/second: $15960$, MB/sec: $1.3546371459960938$
