@@ -1,0 +1,32 @@
+Current time : 24.08.23 15:38:53
+Flink start
+Q3_ORPattern run 1  select 10% : 64s
+------------ Flink stopped ------------
+Current time : 24.08.23 15:40:00
+Flink start
+Q3_ORQuery run 1  select 10% : 49s
+------------ Flink stopped ------------
+Current time : 24.08.23 15:40:52
+Flink start
+Q3_ORPattern run 1  select 1% : 75s
+------------ Flink stopped ------------
+Current time : 24.08.23 15:44:22
+Flink start
+Q3_ORQuery run 1  select 1% : 49s
+------------ Flink stopped ------------
+Current time : 24.08.23 15:45:17
+Flink start
+Q3_ORPattern run 1  select 0.1% : 82s
+------------ Flink stopped ------------
+Current time : 24.08.23 15:46:46
+Flink start
+Q3_ORQuery run 1  select 0.1% : 45s
+------------ Flink stopped ------------
+Current time : 24.08.23 15:47:34
+Flink start
+Q3_ORPattern run 1  select 10% skewed : 74s
+------------ Flink stopped ------------
+Current time : 24.08.23 15:48:52
+Flink start
+Q3_ORQuery run 1  select 10% skewed : 48s
+------------ Flink stopped ------------

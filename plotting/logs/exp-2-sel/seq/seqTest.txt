@@ -1,0 +1,36 @@
+Current time : 24.08.23 14:59:48
+Flink start
+Q1_SEQPattern run 1  select 10% : 63s
+------------ Flink stopped ------------
+Current time : 24.08.23 15:00:54
+Flink start
+Q1_SEQQuery run 1  select 10% : 51s
+------------ Flink stopped ------------
+Current time : 24.08.23 15:01:49
+Flink start
+Q1_SEQPattern run 1  select 200% : 167s
+------------ Flink stopped ------------
+Current time : 24.08.23 15:04:40
+Flink start
+Q1_SEQPattern run 1  select 1% : 64s
+------------ Flink stopped ------------
+Current time : 24.08.23 15:05:47
+Flink start
+Q1_SEQQuery run 1  select 1% : 49s
+------------ Flink stopped ------------
+Current time : 24.08.23 15:07:55
+Flink start
+Q1_SEQPattern run 1  select 0.1% : 54s
+------------ Flink stopped ------------
+Current time : 24.08.23 15:08:53
+Flink start
+Q1_SEQQuery run 1  select 0.1% : 47s
+------------ Flink stopped ------------
+Current time : 24.08.23 15:09:43
+Flink start
+Q1_SEQPattern run 1  select 10% skewed : 55s
+------------ Flink stopped ------------
+Current time : 24.08.23 15:10:41
+Flink start
+Q1_SEQQuery run 1  select 10% skewed : 46s
+------------ Flink stopped ------------

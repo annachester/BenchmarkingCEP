@@ -1,0 +1,430 @@
+2023-08-24 14:54:42,956 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] - --------------------------------------------------------------------------------
+2023-08-24 14:54:42,959 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -  Preconfiguration: 
+2023-08-24 14:54:42,960 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] - 
+
+
+TM_RESOURCE_PARAMS extraction logs:
+jvm_params: -Xmx536870902 -Xms536870902 -XX:MaxDirectMemorySize=268435458 -XX:MaxMetaspaceSize=268435456
+dynamic_configs: -D taskmanager.memory.framework.off-heap.size=134217728b -D taskmanager.memory.network.max=134217730b -D taskmanager.memory.network.min=134217730b -D taskmanager.memory.framework.heap.size=134217728b -D taskmanager.memory.managed.size=536870920b -D taskmanager.cpu.cores=1.0 -D taskmanager.memory.task.heap.size=402653174b -D taskmanager.memory.task.off-heap.size=0b 
+logs: WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+INFO  [] - Loading configuration property: jobmanager.rpc.address, localhost
+INFO  [] - Loading configuration property: jobmanager.rpc.port, 6123
+INFO  [] - Loading configuration property: jobmanager.memory.process.size, 1600m
+INFO  [] - Loading configuration property: taskmanager.memory.process.size, 1728m
+INFO  [] - Loading configuration property: taskmanager.numberOfTaskSlots, 1
+INFO  [] - Loading configuration property: parallelism.default, 1
+INFO  [] - Loading configuration property: jobmanager.execution.failover-strategy, region
+INFO  [] - The derived from fraction jvm overhead memory (172.800mb (181193935 bytes)) is less than its min value 192.000mb (201326592 bytes), min value will be used instead
+INFO  [] - Final TaskExecutor Memory configuration:
+INFO  [] -   Total Process Memory:          1.688gb (1811939328 bytes)
+INFO  [] -     Total Flink Memory:          1.250gb (1342177280 bytes)
+INFO  [] -       Total JVM Heap Memory:     512.000mb (536870902 bytes)
+INFO  [] -         Framework:               128.000mb (134217728 bytes)
+INFO  [] -         Task:                    384.000mb (402653174 bytes)
+INFO  [] -       Total Off-heap Memory:     768.000mb (805306378 bytes)
+INFO  [] -         Managed:                 512.000mb (536870920 bytes)
+INFO  [] -         Total JVM Direct Memory: 256.000mb (268435458 bytes)
+INFO  [] -           Framework:             128.000mb (134217728 bytes)
+INFO  [] -           Task:                  0 bytes
+INFO  [] -           Network:               128.000mb (134217730 bytes)
+INFO  [] -     JVM Metaspace:               256.000mb (268435456 bytes)
+INFO  [] -     JVM Overhead:                192.000mb (201326592 bytes)
+
+2023-08-24 14:54:42,961 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] - --------------------------------------------------------------------------------
+2023-08-24 14:54:42,961 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -  Starting TaskManager (Version: 1.11.6, Scala: 2.11, Rev:826a237, Date:2021-12-14T23:38:16+01:00)
+2023-08-24 14:54:42,961 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -  OS current user: mateum97
+2023-08-24 14:54:42,962 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -  Current Hadoop/Kerberos user: <no hadoop dependency found>
+2023-08-24 14:54:42,962 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -  JVM: OpenJDK 64-Bit Server VM - Private Build - 11/11.0.15+10-Ubuntu-0ubuntu0.20.04.1
+2023-08-24 14:54:42,962 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -  Maximum heap size: 512 MiBytes
+2023-08-24 14:54:42,962 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -  JAVA_HOME: (not set)
+2023-08-24 14:54:42,963 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -  No Hadoop Dependency available
+2023-08-24 14:54:42,963 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -  JVM Options:
+2023-08-24 14:54:42,963 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -XX:+UseG1GC
+2023-08-24 14:54:42,963 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -Xmx536870902
+2023-08-24 14:54:42,964 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -Xms536870902
+2023-08-24 14:54:42,964 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -XX:MaxDirectMemorySize=268435458
+2023-08-24 14:54:42,964 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -XX:MaxMetaspaceSize=268435456
+2023-08-24 14:54:42,964 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -Dlog.file=/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/log/flink-mateum97-taskexecutor-33-SERBIA2.log
+2023-08-24 14:54:42,964 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -Dlog4j.configuration=file:/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/conf/log4j.properties
+2023-08-24 14:54:42,965 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -Dlog4j.configurationFile=file:/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/conf/log4j.properties
+2023-08-24 14:54:42,965 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -Dlogback.configurationFile=file:/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/conf/logback.xml
+2023-08-24 14:54:42,965 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -  Program Arguments:
+2023-08-24 14:54:42,967 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     --configDir
+2023-08-24 14:54:42,967 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     /mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/conf
+2023-08-24 14:54:42,968 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -D
+2023-08-24 14:54:42,968 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     taskmanager.memory.framework.off-heap.size=134217728b
+2023-08-24 14:54:42,968 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -D
+2023-08-24 14:54:42,968 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     taskmanager.memory.network.max=134217730b
+2023-08-24 14:54:42,969 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -D
+2023-08-24 14:54:42,969 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     taskmanager.memory.network.min=134217730b
+2023-08-24 14:54:42,978 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -D
+2023-08-24 14:54:42,979 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     taskmanager.memory.framework.heap.size=134217728b
+2023-08-24 14:54:42,979 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -D
+2023-08-24 14:54:42,979 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     taskmanager.memory.managed.size=536870920b
+2023-08-24 14:54:42,979 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -D
+2023-08-24 14:54:42,980 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     taskmanager.cpu.cores=1.0
+2023-08-24 14:54:42,980 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -D
+2023-08-24 14:54:42,980 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     taskmanager.memory.task.heap.size=402653174b
+2023-08-24 14:54:42,980 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -D
+2023-08-24 14:54:42,981 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     taskmanager.memory.task.off-heap.size=0b
+2023-08-24 14:54:42,981 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -  Classpath: /mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/lib/flink-csv-1.11.6.jar:/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/lib/flink-json-1.11.6.jar:/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/lib/flink-shaded-zookeeper-3.4.14.jar:/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/lib/flink-table-blink_2.11-1.11.6.jar:/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/lib/flink-table_2.11-1.11.6.jar:/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/lib/log4j-1.2-api-2.16.0.jar:/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/lib/log4j-api-2.16.0.jar:/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/lib/log4j-core-2.16.0.jar:/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/lib/log4j-slf4j-impl-2.16.0.jar:/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/lib/flink-dist_2.11-1.11.6.jar:::
+2023-08-24 14:54:42,981 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] - --------------------------------------------------------------------------------
+2023-08-24 14:54:42,983 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] - Registered UNIX signal handlers for [TERM, HUP, INT]
+2023-08-24 14:54:43,000 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] - Maximum number of open file descriptors is 4096.
+2023-08-24 14:54:43,020 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: jobmanager.rpc.address, localhost
+2023-08-24 14:54:43,021 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: jobmanager.rpc.port, 6123
+2023-08-24 14:54:43,021 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: jobmanager.memory.process.size, 1600m
+2023-08-24 14:54:43,021 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: taskmanager.memory.process.size, 1728m
+2023-08-24 14:54:43,022 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: taskmanager.numberOfTaskSlots, 1
+2023-08-24 14:54:43,022 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: parallelism.default, 1
+2023-08-24 14:54:43,023 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: jobmanager.execution.failover-strategy, region
+2023-08-24 14:54:43,110 INFO  org.apache.flink.core.fs.FileSystem                          [] - Hadoop is not in the classpath/dependencies. The extended set of supported File Systems via Hadoop is not available.
+2023-08-24 14:54:43,184 INFO  org.apache.flink.runtime.security.modules.HadoopModuleFactory [] - Cannot create Hadoop Security Module because Hadoop cannot be found in the Classpath.
+2023-08-24 14:54:43,193 INFO  org.apache.flink.runtime.security.modules.JaasModule         [] - Jaas file will be created as /tmp/jaas-3386090764902448597.conf.
+2023-08-24 14:54:43,200 INFO  org.apache.flink.runtime.security.contexts.HadoopSecurityContextFactory [] - Cannot install HadoopSecurityContext because Hadoop cannot be found in the Classpath.
+2023-08-24 14:54:43,246 INFO  org.apache.flink.configuration.Configuration                 [] - Config uses fallback configuration key 'jobmanager.rpc.address' instead of key 'rest.address'
+2023-08-24 14:54:43,256 INFO  org.apache.flink.runtime.util.LeaderRetrievalUtils           [] - Trying to select the network interface and address to use by connecting to the leading JobManager.
+2023-08-24 14:54:43,256 INFO  org.apache.flink.runtime.util.LeaderRetrievalUtils           [] - TaskManager will try to connect for PT10S before falling back to heuristics
+2023-08-24 14:54:43,324 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] - TaskManager will use hostname/address 'SERBIA2' (127.0.1.1) for communication.
+2023-08-24 14:54:43,334 INFO  org.apache.flink.runtime.rpc.akka.AkkaRpcServiceUtils        [] - Trying to start actor system, external address 127.0.1.1:0, bind address 0.0.0.0:0.
+2023-08-24 14:54:43,942 INFO  akka.event.slf4j.Slf4jLogger                                 [] - Slf4jLogger started
+2023-08-24 14:54:43,987 INFO  akka.remote.Remoting                                         [] - Starting remoting
+2023-08-24 14:54:44,165 INFO  akka.remote.Remoting                                         [] - Remoting started; listening on addresses :[akka.tcp://flink@127.0.1.1:43121]
+2023-08-24 14:54:44,242 INFO  org.apache.flink.runtime.rpc.akka.AkkaRpcServiceUtils        [] - Actor system started at akka.tcp://flink@127.0.1.1:43121
+2023-08-24 14:54:44,263 INFO  org.apache.flink.runtime.metrics.MetricRegistryImpl          [] - No metrics reporter configured, no metrics will be exposed/reported.
+2023-08-24 14:54:44,267 INFO  org.apache.flink.runtime.rpc.akka.AkkaRpcServiceUtils        [] - Trying to start actor system, external address 127.0.1.1:0, bind address 0.0.0.0:0.
+2023-08-24 14:54:44,279 INFO  akka.event.slf4j.Slf4jLogger                                 [] - Slf4jLogger started
+2023-08-24 14:54:44,281 INFO  akka.remote.Remoting                                         [] - Starting remoting
+2023-08-24 14:54:44,290 INFO  akka.remote.Remoting                                         [] - Remoting started; listening on addresses :[akka.tcp://flink-metrics@127.0.1.1:46635]
+2023-08-24 14:54:44,300 INFO  org.apache.flink.runtime.rpc.akka.AkkaRpcServiceUtils        [] - Actor system started at akka.tcp://flink-metrics@127.0.1.1:46635
+2023-08-24 14:54:44,317 INFO  org.apache.flink.runtime.rpc.akka.AkkaRpcService             [] - Starting RPC endpoint for org.apache.flink.runtime.metrics.dump.MetricQueryService at akka://flink-metrics/user/rpc/MetricQueryService_0c4e40dd64cc4c051e924d21de385498 .
+2023-08-24 14:54:44,329 INFO  org.apache.flink.runtime.blob.PermanentBlobCache             [] - Created BLOB cache storage directory /tmp/blobStore-3b20175d-3667-4462-a5e1-dd3e62e80dfb
+2023-08-24 14:54:44,331 INFO  org.apache.flink.runtime.blob.TransientBlobCache             [] - Created BLOB cache storage directory /tmp/blobStore-618d1436-c360-4a76-b64c-1c7bcbfda4b7
+2023-08-24 14:54:44,334 INFO  org.apache.flink.runtime.externalresource.ExternalResourceUtils [] - Enabled external resources: []
+2023-08-24 14:54:44,334 INFO  org.apache.flink.runtime.externalresource.ExternalResourceUtils [] - Enabled external resources: []
+2023-08-24 14:54:44,335 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] - Starting TaskManager with ResourceID: 0c4e40dd64cc4c051e924d21de385498
+2023-08-24 14:54:44,359 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerServices    [] - Temporary file directory '/tmp': total 250 GB, usable 234 GB (93.60% usable)
+2023-08-24 14:54:44,363 INFO  org.apache.flink.runtime.io.disk.FileChannelManagerImpl      [] - FileChannelManager uses directory /tmp/flink-io-e4f9489d-4f7b-4c88-b3e8-a7f27b80d363 for spill files.
+2023-08-24 14:54:44,375 INFO  org.apache.flink.runtime.io.network.netty.NettyConfig        [] - NettyConfig [server address: /0.0.0.0, server port: 0, ssl enabled: false, memory segment size (bytes): 32768, transport type: AUTO, number of server threads: 1 (manual), number of client threads: 1 (manual), server connect backlog: 0 (use Netty's default), client connect timeout (sec): 120, send/receive buffer size (bytes): 0 (use Netty's default)]
+2023-08-24 14:54:44,379 INFO  org.apache.flink.runtime.io.disk.FileChannelManagerImpl      [] - FileChannelManager uses directory /tmp/flink-netty-shuffle-cf60922a-2125-452d-80ad-e8ce7aa2d56b for spill files.
+2023-08-24 14:54:44,476 INFO  org.apache.flink.runtime.io.network.buffer.NetworkBufferPool [] - Allocated 128 MB for network buffer pool (number of memory segments: 4096, bytes per segment: 32768).
+2023-08-24 14:54:44,485 INFO  org.apache.flink.runtime.io.network.NettyShuffleEnvironment  [] - Starting the network environment and its components.
+2023-08-24 14:54:44,560 INFO  org.apache.flink.runtime.io.network.netty.NettyClient        [] - Transport type 'auto': using EPOLL.
+2023-08-24 14:54:44,563 INFO  org.apache.flink.runtime.io.network.netty.NettyClient        [] - Successful initialization (took 77 ms).
+2023-08-24 14:54:44,574 INFO  org.apache.flink.runtime.io.network.netty.NettyServer        [] - Transport type 'auto': using EPOLL.
+2023-08-24 14:54:44,674 INFO  org.apache.flink.runtime.io.network.netty.NettyServer        [] - Successful initialization (took 107 ms). Listening on SocketAddress /0:0:0:0:0:0:0:0%0:45063.
+2023-08-24 14:54:44,677 INFO  org.apache.flink.runtime.taskexecutor.KvStateService         [] - Starting the kvState service and its components.
+2023-08-24 14:54:44,715 INFO  org.apache.flink.runtime.rpc.akka.AkkaRpcService             [] - Starting RPC endpoint for org.apache.flink.runtime.taskexecutor.TaskExecutor at akka://flink/user/rpc/taskmanager_0 .
+2023-08-24 14:54:44,737 INFO  org.apache.flink.runtime.taskexecutor.DefaultJobLeaderService [] - Start job leader service.
+2023-08-24 14:54:44,739 INFO  org.apache.flink.runtime.filecache.FileCache                 [] - User file cache uses directory /tmp/flink-dist-cache-0ec9f565-3574-4c00-810a-358ef447c4b8
+2023-08-24 14:54:44,741 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Connecting to ResourceManager akka.tcp://flink@localhost:6123/user/rpc/resourcemanager_*(00000000000000000000000000000000).
+2023-08-24 14:54:44,995 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Resolved ResourceManager address, beginning registration
+2023-08-24 14:54:45,102 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Successful registration at resource manager akka.tcp://flink@localhost:6123/user/rpc/resourcemanager_* under registration id 7de5705f5a580b74e091d92327a46a7a.
+2023-08-24 14:54:46,998 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Receive slot request 72c62c40debcec8ffee92049f3b64d25 for job 084c6c2bff2e824d6033c5697ced2d0e from resource manager with leader id 00000000000000000000000000000000.
+2023-08-24 14:54:47,004 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Allocated slot for 72c62c40debcec8ffee92049f3b64d25.
+2023-08-24 14:54:47,006 INFO  org.apache.flink.runtime.taskexecutor.DefaultJobLeaderService [] - Add job 084c6c2bff2e824d6033c5697ced2d0e for job leader monitoring.
+2023-08-24 14:54:47,007 INFO  org.apache.flink.runtime.taskexecutor.DefaultJobLeaderService [] - Try to register at job manager akka.tcp://flink@localhost:6123/user/rpc/jobmanager_2 with leader id 00000000-0000-0000-0000-000000000000.
+2023-08-24 14:54:47,023 INFO  org.apache.flink.runtime.taskexecutor.DefaultJobLeaderService [] - Resolved JobManager address, beginning registration
+2023-08-24 14:54:47,043 INFO  org.apache.flink.runtime.taskexecutor.DefaultJobLeaderService [] - Successful registration at job manager akka.tcp://flink@localhost:6123/user/rpc/jobmanager_2 for job 084c6c2bff2e824d6033c5697ced2d0e.
+2023-08-24 14:54:47,044 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Establish JobManager connection for job 084c6c2bff2e824d6033c5697ced2d0e.
+2023-08-24 14:54:47,048 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Offer reserved slots to the leader of job 084c6c2bff2e824d6033c5697ced2d0e.
+2023-08-24 14:54:47,078 INFO  org.apache.flink.runtime.taskexecutor.slot.TaskSlotTableImpl [] - Activate slot 72c62c40debcec8ffee92049f3b64d25.
+2023-08-24 14:54:47,090 INFO  org.apache.flink.runtime.taskexecutor.slot.TaskSlotTableImpl [] - Activate slot 72c62c40debcec8ffee92049f3b64d25.
+2023-08-24 14:54:47,140 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Received task GlobalCepOperator (1/1).
+2023-08-24 14:54:47,141 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - GlobalCepOperator (1/1) (8e6efc89d8539de7c6f3d455196416c3) switched from CREATED to DEPLOYING.
+2023-08-24 14:54:47,145 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - Loading JAR files for task GlobalCepOperator (1/1) (8e6efc89d8539de7c6f3d455196416c3) [DEPLOYING].
+2023-08-24 14:54:47,146 INFO  org.apache.flink.runtime.taskexecutor.slot.TaskSlotTableImpl [] - Activate slot 72c62c40debcec8ffee92049f3b64d25.
+2023-08-24 14:54:47,148 INFO  org.apache.flink.runtime.blob.BlobClient                     [] - Downloading 084c6c2bff2e824d6033c5697ced2d0e/p-517f850665b7d43c8f30796658a70f54b9755a2b-dfda761b9499293662b720680c7625b9 from localhost/127.0.0.1:43379
+2023-08-24 14:54:47,151 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Received task Source: Custom Source -> Timestamps/Watermarks -> Flat Map (1/1).
+2023-08-24 14:54:47,152 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - Source: Custom Source -> Timestamps/Watermarks -> Flat Map (1/1) (068b4978a6046ce7e490e44752a65e76) switched from CREATED to DEPLOYING.
+2023-08-24 14:54:47,153 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - Loading JAR files for task Source: Custom Source -> Timestamps/Watermarks -> Flat Map (1/1) (068b4978a6046ce7e490e44752a65e76) [DEPLOYING].
+2023-08-24 14:54:47,154 INFO  org.apache.flink.runtime.taskexecutor.slot.TaskSlotTableImpl [] - Activate slot 72c62c40debcec8ffee92049f3b64d25.
+2023-08-24 14:54:47,156 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Received task GlobalCepOperator (1/1).
+2023-08-24 14:54:47,156 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - GlobalCepOperator (1/1) (7dd333e09bc1fd8b05ebdd567efc8f29) switched from CREATED to DEPLOYING.
+2023-08-24 14:54:47,157 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - Loading JAR files for task GlobalCepOperator (1/1) (7dd333e09bc1fd8b05ebdd567efc8f29) [DEPLOYING].
+2023-08-24 14:54:47,478 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - Registering task at network: GlobalCepOperator (1/1) (8e6efc89d8539de7c6f3d455196416c3) [DEPLOYING].
+2023-08-24 14:54:47,478 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - Registering task at network: Source: Custom Source -> Timestamps/Watermarks -> Flat Map (1/1) (068b4978a6046ce7e490e44752a65e76) [DEPLOYING].
+2023-08-24 14:54:47,478 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - Registering task at network: GlobalCepOperator (1/1) (7dd333e09bc1fd8b05ebdd567efc8f29) [DEPLOYING].
+2023-08-24 14:54:47,514 INFO  org.apache.flink.streaming.runtime.tasks.StreamTask          [] - No state backend has been configured, using default (Memory / JobManager) MemoryStateBackend (data in heap memory / checkpoints to JobManager) (checkpoints: 'null', savepoints: 'null', asynchronous: TRUE, maxStateSize: 5242880)
+2023-08-24 14:54:47,514 INFO  org.apache.flink.streaming.runtime.tasks.StreamTask          [] - No state backend has been configured, using default (Memory / JobManager) MemoryStateBackend (data in heap memory / checkpoints to JobManager) (checkpoints: 'null', savepoints: 'null', asynchronous: TRUE, maxStateSize: 5242880)
+2023-08-24 14:54:47,514 INFO  org.apache.flink.streaming.runtime.tasks.StreamTask          [] - No state backend has been configured, using default (Memory / JobManager) MemoryStateBackend (data in heap memory / checkpoints to JobManager) (checkpoints: 'null', savepoints: 'null', asynchronous: TRUE, maxStateSize: 5242880)
+2023-08-24 14:54:47,523 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - Source: Custom Source -> Timestamps/Watermarks -> Flat Map (1/1) (068b4978a6046ce7e490e44752a65e76) switched from DEPLOYING to RUNNING.
+2023-08-24 14:54:47,523 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - GlobalCepOperator (1/1) (8e6efc89d8539de7c6f3d455196416c3) switched from DEPLOYING to RUNNING.
+2023-08-24 14:54:47,523 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - GlobalCepOperator (1/1) (7dd333e09bc1fd8b05ebdd567efc8f29) switched from DEPLOYING to RUNNING.
+2023-08-24 14:54:47,658 INFO  org.apache.flink.runtime.state.heap.HeapKeyedStateBackend    [] - Initializing heap keyed state backend with stream factory.
+2023-08-24 14:54:47,658 INFO  org.apache.flink.runtime.state.heap.HeapKeyedStateBackend    [] - Initializing heap keyed state backend with stream factory.
+2023-08-24 14:54:47,895 INFO  util.ThroughputLogger                                        [] - $Q7_ITER2Pattern$ - file loops: $1$, velThreshold: $175$, quaThreshold: $null$, windowSize: $15$, iter: $4$
+2023-08-24 14:54:47,896 INFO  util.ThroughputLogger                                        [] - throughput: $1000000$, workers: $1$, logging frequency: $1$ second
+2023-08-24 14:54:48,122 INFO  util.LatencyLogger                                           [] - Starting Latency Logging for matched patterns with frequency 1 second.
+2023-08-24 14:54:49,003 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $26513$, MB/sec: $2.2503442764282227$
+2023-08-24 14:54:49,210 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $416517$, patternDetLatSum: $20$, totalLatencySum: $416537$, matchedPatternsSum: $1326$
+2023-08-24 14:54:50,019 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $43957$, MB/sec: $3.7309389114379883$
+2023-08-24 14:54:50,211 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $602233$, patternDetLatSum: $23$, totalLatencySum: $602256$, matchedPatternsSum: $2470$
+2023-08-24 14:54:51,019 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $49850$, MB/sec: $4.231119155883789$
+2023-08-24 14:54:51,211 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $433497$, patternDetLatSum: $23$, totalLatencySum: $433520$, matchedPatternsSum: $2190$
+2023-08-24 14:54:52,104 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $55276$, MB/sec: $4.691661834716797$
+2023-08-24 14:54:52,214 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $804539$, patternDetLatSum: $25$, totalLatencySum: $804564$, matchedPatternsSum: $2790$
+2023-08-24 14:54:53,197 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $80690$, MB/sec: $6.848726272583008$
+2023-08-24 14:54:53,227 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $542819$, patternDetLatSum: $20$, totalLatencySum: $542839$, matchedPatternsSum: $3840$
+2023-08-24 14:54:54,227 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $755615$, patternDetLatSum: $21$, totalLatencySum: $755636$, matchedPatternsSum: $3120$
+2023-08-24 14:54:54,265 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $65136$, MB/sec: $5.5285491943359375$
+2023-08-24 14:54:55,227 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $810185$, patternDetLatSum: $23$, totalLatencySum: $810208$, matchedPatternsSum: $2455$
+2023-08-24 14:54:55,375 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $62738$, MB/sec: $5.325014114379883$
+2023-08-24 14:54:56,281 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $851473$, patternDetLatSum: $10$, totalLatencySum: $851483$, matchedPatternsSum: $3350$
+2023-08-24 14:54:56,394 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $63537$, MB/sec: $5.392830848693848$
+2023-08-24 14:54:57,321 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $589837$, patternDetLatSum: $10$, totalLatencySum: $589847$, matchedPatternsSum: $3540$
+2023-08-24 14:54:57,616 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $89912$, MB/sec: $7.631462097167969$
+2023-08-24 14:54:58,424 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $1068992$, patternDetLatSum: $21$, totalLatencySum: $1069013$, matchedPatternsSum: $3715$
+2023-08-24 14:54:58,867 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $75525$, MB/sec: $6.410336494445801$
+2023-08-24 14:54:59,565 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $998582$, patternDetLatSum: $16$, totalLatencySum: $998598$, matchedPatternsSum: $3360$
+2023-08-24 14:54:59,867 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $66654$, MB/sec: $5.657392501831055$
+2023-08-24 14:55:00,567 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $840319$, patternDetLatSum: $31$, totalLatencySum: $840350$, matchedPatternsSum: $3490$
+2023-08-24 14:55:00,867 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $73762$, MB/sec: $6.260698318481445$
+2023-08-24 14:55:01,567 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $872476$, patternDetLatSum: $28$, totalLatencySum: $872504$, matchedPatternsSum: $3551$
+2023-08-24 14:55:01,924 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $64064$, MB/sec: $5.43756103515625$
+2023-08-24 14:55:02,567 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $745793$, patternDetLatSum: $18$, totalLatencySum: $745811$, matchedPatternsSum: $3469$
+2023-08-24 14:55:03,079 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $77642$, MB/sec: $6.590021133422852$
+2023-08-24 14:55:03,687 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $740057$, patternDetLatSum: $18$, totalLatencySum: $740075$, matchedPatternsSum: $3170$
+2023-08-24 14:55:04,079 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $77708$, MB/sec: $6.595623016357422$
+2023-08-24 14:55:04,688 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $766369$, patternDetLatSum: $16$, totalLatencySum: $766385$, matchedPatternsSum: $3365$
+2023-08-24 14:55:05,271 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $60555$, MB/sec: $5.139727592468262$
+2023-08-24 14:55:05,687 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $798784$, patternDetLatSum: $23$, totalLatencySum: $798807$, matchedPatternsSum: $3580$
+2023-08-24 14:55:06,307 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $64337$, MB/sec: $5.460732460021973$
+2023-08-24 14:55:06,808 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $670381$, patternDetLatSum: $15$, totalLatencySum: $670396$, matchedPatternsSum: $3240$
+2023-08-24 14:55:07,307 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $67801$, MB/sec: $5.754746437072754$
+2023-08-24 14:55:07,960 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $850413$, patternDetLatSum: $30$, totalLatencySum: $850443$, matchedPatternsSum: $3825$
+2023-08-24 14:55:08,307 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $75131$, MB/sec: $6.376894950866699$
+2023-08-24 14:55:08,960 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $828175$, patternDetLatSum: $10$, totalLatencySum: $828185$, matchedPatternsSum: $3255$
+2023-08-24 14:55:09,307 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $67187$, MB/sec: $5.702631950378418$
+2023-08-24 14:55:09,960 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $948127$, patternDetLatSum: $26$, totalLatencySum: $948153$, matchedPatternsSum: $3576$
+2023-08-24 14:55:10,313 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $56817$, MB/sec: $4.822457313537598$
+2023-08-24 14:55:11,025 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $730778$, patternDetLatSum: $7$, totalLatencySum: $730785$, matchedPatternsSum: $3499$
+2023-08-24 14:55:11,322 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $76211$, MB/sec: $6.468562126159668$
+2023-08-24 14:55:12,025 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $911100$, patternDetLatSum: $25$, totalLatencySum: $911125$, matchedPatternsSum: $3670$
+2023-08-24 14:55:12,328 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $73827$, MB/sec: $6.2662153244018555$
+2023-08-24 14:55:13,025 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $951876$, patternDetLatSum: $7$, totalLatencySum: $951883$, matchedPatternsSum: $3695$
+2023-08-24 14:55:13,328 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $72960$, MB/sec: $6.192626953125$
+2023-08-24 14:55:14,026 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $919992$, patternDetLatSum: $26$, totalLatencySum: $920018$, matchedPatternsSum: $3630$
+2023-08-24 14:55:14,328 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $62162$, MB/sec: $5.276124954223633$
+2023-08-24 14:55:15,027 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $655152$, patternDetLatSum: $20$, totalLatencySum: $655172$, matchedPatternsSum: $3210$
+2023-08-24 14:55:15,354 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $69212$, MB/sec: $5.874507904052734$
+2023-08-24 14:55:16,028 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $679710$, patternDetLatSum: $10$, totalLatencySum: $679720$, matchedPatternsSum: $3055$
+2023-08-24 14:55:16,353 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $69186$, MB/sec: $5.87230110168457$
+2023-08-24 14:55:17,027 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $670387$, patternDetLatSum: $19$, totalLatencySum: $670406$, matchedPatternsSum: $2870$
+2023-08-24 14:55:17,353 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $53040$, MB/sec: $4.5018768310546875$
+2023-08-24 14:55:18,027 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $518231$, patternDetLatSum: $5$, totalLatencySum: $518236$, matchedPatternsSum: $3625$
+2023-08-24 14:55:18,353 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $74282$, MB/sec: $6.304834365844727$
+2023-08-24 14:55:19,027 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $537077$, patternDetLatSum: $17$, totalLatencySum: $537094$, matchedPatternsSum: $3815$
+2023-08-24 14:55:19,353 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $70261$, MB/sec: $5.963543891906738$
+2023-08-24 14:55:20,027 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $508991$, patternDetLatSum: $23$, totalLatencySum: $509014$, matchedPatternsSum: $3020$
+2023-08-24 14:55:20,353 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $75691$, MB/sec: $6.424426078796387$
+2023-08-24 14:55:21,027 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $848001$, patternDetLatSum: $47$, totalLatencySum: $848048$, matchedPatternsSum: $3565$
+2023-08-24 14:55:21,353 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $70524$, MB/sec: $5.985866546630859$
+2023-08-24 14:55:22,027 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $931742$, patternDetLatSum: $32$, totalLatencySum: $931774$, matchedPatternsSum: $3685$
+2023-08-24 14:55:22,434 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $67912$, MB/sec: $5.764167785644531$
+2023-08-24 14:55:23,027 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $797737$, patternDetLatSum: $17$, totalLatencySum: $797754$, matchedPatternsSum: $3136$
+2023-08-24 14:55:23,634 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $75532$, MB/sec: $6.410930633544922$
+2023-08-24 14:55:24,027 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $935983$, patternDetLatSum: $9$, totalLatencySum: $935992$, matchedPatternsSum: $3674$
+2023-08-24 14:55:24,634 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $74011$, MB/sec: $6.281832695007324$
+2023-08-24 14:55:25,027 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $805626$, patternDetLatSum: $15$, totalLatencySum: $805641$, matchedPatternsSum: $3130$
+2023-08-24 14:55:25,634 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $80552$, MB/sec: $6.837013244628906$
+2023-08-24 14:55:26,150 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $796886$, patternDetLatSum: $10$, totalLatencySum: $796896$, matchedPatternsSum: $3755$
+2023-08-24 14:55:26,785 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $61783$, MB/sec: $5.243956565856934$
+2023-08-24 14:55:27,150 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $731628$, patternDetLatSum: $27$, totalLatencySum: $731655$, matchedPatternsSum: $3685$
+2023-08-24 14:55:27,785 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $64036$, MB/sec: $5.435184478759766$
+2023-08-24 14:55:28,151 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $819905$, patternDetLatSum: $17$, totalLatencySum: $819922$, matchedPatternsSum: $3445$
+2023-08-24 14:55:28,785 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $71922$, MB/sec: $6.104524612426758$
+2023-08-24 14:55:29,268 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $761269$, patternDetLatSum: $27$, totalLatencySum: $761296$, matchedPatternsSum: $3375$
+2023-08-24 14:55:29,785 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $88082$, MB/sec: $7.476137161254883$
+2023-08-24 14:55:30,321 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $1006103$, patternDetLatSum: $16$, totalLatencySum: $1006119$, matchedPatternsSum: $3730$
+2023-08-24 14:55:30,795 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $45207$, MB/sec: $3.8370351791381836$
+2023-08-24 14:55:31,321 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $817471$, patternDetLatSum: $25$, totalLatencySum: $817496$, matchedPatternsSum: $3385$
+2023-08-24 14:55:31,795 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $58793$, MB/sec: $4.990174293518066$
+2023-08-24 14:55:32,321 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $917191$, patternDetLatSum: $20$, totalLatencySum: $917211$, matchedPatternsSum: $3425$
+2023-08-24 14:55:32,851 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $72673$, MB/sec: $6.168267250061035$
+2023-08-24 14:55:33,321 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $722689$, patternDetLatSum: $24$, totalLatencySum: $722713$, matchedPatternsSum: $2700$
+2023-08-24 14:55:33,851 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $71964$, MB/sec: $6.108089447021484$
+2023-08-24 14:55:34,321 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $542806$, patternDetLatSum: $10$, totalLatencySum: $542816$, matchedPatternsSum: $3345$
+2023-08-24 14:55:35,017 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $74503$, MB/sec: $6.323592185974121$
+2023-08-24 14:55:35,321 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $801266$, patternDetLatSum: $2$, totalLatencySum: $801268$, matchedPatternsSum: $3345$
+2023-08-24 14:55:36,017 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $70933$, MB/sec: $6.020581245422363$
+2023-08-24 14:55:36,321 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $832938$, patternDetLatSum: $14$, totalLatencySum: $832952$, matchedPatternsSum: $3705$
+2023-08-24 14:55:37,017 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $62643$, MB/sec: $5.316950798034668$
+2023-08-24 14:55:37,321 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $642810$, patternDetLatSum: $16$, totalLatencySum: $642826$, matchedPatternsSum: $2425$
+2023-08-24 14:55:38,017 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $49452$, MB/sec: $4.197338104248047$
+2023-08-24 14:55:38,321 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $847393$, patternDetLatSum: $19$, totalLatencySum: $847412$, matchedPatternsSum: $3325$
+2023-08-24 14:55:39,289 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $85035$, MB/sec: $7.217516899108887$
+2023-08-24 14:55:39,321 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $919104$, patternDetLatSum: $20$, totalLatencySum: $919124$, matchedPatternsSum: $3710$
+2023-08-24 14:55:40,318 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $61193$, MB/sec: $5.193879127502441$
+2023-08-24 14:55:40,321 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $512402$, patternDetLatSum: $8$, totalLatencySum: $512410$, matchedPatternsSum: $2925$
+2023-08-24 14:55:41,321 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $920941$, patternDetLatSum: $21$, totalLatencySum: $920962$, matchedPatternsSum: $3380$
+2023-08-24 14:55:41,374 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $73431$, MB/sec: $6.232604026794434$
+2023-08-24 14:55:42,321 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $923679$, patternDetLatSum: $16$, totalLatencySum: $923695$, matchedPatternsSum: $3655$
+2023-08-24 14:55:42,381 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $73826$, MB/sec: $6.266130447387695$
+2023-08-24 14:55:43,381 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $68799$, MB/sec: $5.83945369720459$
+2023-08-24 14:55:43,390 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $539903$, patternDetLatSum: $14$, totalLatencySum: $539917$, matchedPatternsSum: $2685$
+2023-08-24 14:55:44,393 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $798161$, patternDetLatSum: $27$, totalLatencySum: $798188$, matchedPatternsSum: $3340$
+2023-08-24 14:55:44,614 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $70562$, MB/sec: $5.989091873168945$
+2023-08-24 14:55:45,393 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $889341$, patternDetLatSum: $17$, totalLatencySum: $889358$, matchedPatternsSum: $3361$
+2023-08-24 14:55:45,627 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $61982$, MB/sec: $5.260847091674805$
+2023-08-24 14:55:46,393 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $701450$, patternDetLatSum: $10$, totalLatencySum: $701460$, matchedPatternsSum: $3879$
+2023-08-24 14:55:46,939 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $89223$, MB/sec: $7.572981834411621$
+2023-08-24 14:55:47,393 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $869839$, patternDetLatSum: $34$, totalLatencySum: $869873$, matchedPatternsSum: $3171$
+2023-08-24 14:55:48,021 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $59614$, MB/sec: $5.059858322143555$
+2023-08-24 14:55:48,394 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $691347$, patternDetLatSum: $16$, totalLatencySum: $691363$, matchedPatternsSum: $1949$
+2023-08-24 14:55:49,213 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $59613$, MB/sec: $5.0597734451293945$
+2023-08-24 14:55:49,423 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $869728$, patternDetLatSum: $12$, totalLatencySum: $869740$, matchedPatternsSum: $2615$
+2023-08-24 14:55:50,362 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $51323$, MB/sec: $4.356142997741699$
+2023-08-24 14:55:50,567 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $826779$, patternDetLatSum: $24$, totalLatencySum: $826803$, matchedPatternsSum: $2565$
+2023-08-24 14:55:51,389 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $75010$, MB/sec: $6.36662483215332$
+2023-08-24 14:55:51,599 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $977184$, patternDetLatSum: $10$, totalLatencySum: $977194$, matchedPatternsSum: $3750$
+2023-08-24 14:55:52,389 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $68413$, MB/sec: $5.8066911697387695$
+2023-08-24 14:55:52,601 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $533966$, patternDetLatSum: $12$, totalLatencySum: $533978$, matchedPatternsSum: $3495$
+2023-08-24 14:55:53,389 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $82046$, MB/sec: $6.96381950378418$
+2023-08-24 14:55:53,602 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $626743$, patternDetLatSum: $19$, totalLatencySum: $626762$, matchedPatternsSum: $3845$
+2023-08-24 14:55:54,601 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $872524$, patternDetLatSum: $17$, totalLatencySum: $872541$, matchedPatternsSum: $3355$
+2023-08-24 14:55:54,662 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $73783$, MB/sec: $6.262480735778809$
+2023-08-24 14:55:55,601 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $765712$, patternDetLatSum: $21$, totalLatencySum: $765733$, matchedPatternsSum: $3040$
+2023-08-24 14:55:55,670 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $61982$, MB/sec: $5.260847091674805$
+2023-08-24 14:55:56,648 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $642267$, patternDetLatSum: $20$, totalLatencySum: $642287$, matchedPatternsSum: $3420$
+2023-08-24 14:55:56,670 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $72600$, MB/sec: $6.162071228027344$
+2023-08-24 14:55:57,651 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $562419$, patternDetLatSum: $14$, totalLatencySum: $562433$, matchedPatternsSum: $2130$
+2023-08-24 14:55:57,672 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $51401$, MB/sec: $4.362763404846191$
+2023-08-24 14:55:58,651 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $765587$, patternDetLatSum: $19$, totalLatencySum: $765606$, matchedPatternsSum: $2615$
+2023-08-24 14:55:58,672 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $33712$, MB/sec: $2.8613739013671875$
+2023-08-24 14:55:59,651 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $621592$, patternDetLatSum: $27$, totalLatencySum: $621619$, matchedPatternsSum: $1875$
+2023-08-24 14:55:59,822 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $52315$, MB/sec: $4.440340995788574$
+2023-08-24 14:56:00,651 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $743475$, patternDetLatSum: $10$, totalLatencySum: $743485$, matchedPatternsSum: $2960$
+2023-08-24 14:56:00,866 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $62772$, MB/sec: $5.327899932861328$
+2023-08-24 14:56:01,651 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $893892$, patternDetLatSum: $21$, totalLatencySum: $893913$, matchedPatternsSum: $3190$
+2023-08-24 14:56:01,908 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $65930$, MB/sec: $5.595941543579102$
+2023-08-24 14:56:02,681 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $867754$, patternDetLatSum: $26$, totalLatencySum: $867780$, matchedPatternsSum: $3100$
+2023-08-24 14:56:03,002 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $67510$, MB/sec: $5.730047225952148$
+2023-08-24 14:56:03,681 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $682075$, patternDetLatSum: $34$, totalLatencySum: $682109$, matchedPatternsSum: $3311$
+2023-08-24 14:56:04,001 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $74091$, MB/sec: $6.288622856140137$
+2023-08-24 14:56:04,681 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $699141$, patternDetLatSum: $25$, totalLatencySum: $699166$, matchedPatternsSum: $3759$
+2023-08-24 14:56:05,214 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $78298$, MB/sec: $6.645700454711914$
+2023-08-24 14:56:05,681 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $905555$, patternDetLatSum: $20$, totalLatencySum: $905575$, matchedPatternsSum: $3595$
+2023-08-24 14:56:06,214 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $64754$, MB/sec: $5.496126174926758$
+2023-08-24 14:56:06,743 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $591404$, patternDetLatSum: $16$, totalLatencySum: $591420$, matchedPatternsSum: $2795$
+2023-08-24 14:56:07,242 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $67470$, MB/sec: $5.726652145385742$
+2023-08-24 14:56:07,743 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $798620$, patternDetLatSum: $16$, totalLatencySum: $798636$, matchedPatternsSum: $3750$
+2023-08-24 14:56:08,242 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $72176$, MB/sec: $6.1260833740234375$
+2023-08-24 14:56:08,857 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $657756$, patternDetLatSum: $20$, totalLatencySum: $657776$, matchedPatternsSum: $2725$
+2023-08-24 14:56:09,242 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $51686$, MB/sec: $4.386953353881836$
+2023-08-24 14:56:09,857 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $615194$, patternDetLatSum: $23$, totalLatencySum: $615217$, matchedPatternsSum: $3200$
+2023-08-24 14:56:10,242 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $63130$, MB/sec: $5.358285903930664$
+2023-08-24 14:56:10,857 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $854563$, patternDetLatSum: $22$, totalLatencySum: $854585$, matchedPatternsSum: $3125$
+2023-08-24 14:56:11,242 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $56134$, MB/sec: $4.764486312866211$
+2023-08-24 14:56:11,906 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $747756$, patternDetLatSum: $31$, totalLatencySum: $747787$, matchedPatternsSum: $2380$
+2023-08-24 14:56:12,242 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $36710$, MB/sec: $3.115835189819336$
+2023-08-24 14:56:12,989 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $725785$, patternDetLatSum: $22$, totalLatencySum: $725807$, matchedPatternsSum: $2390$
+2023-08-24 14:56:13,351 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $55767$, MB/sec: $4.733336448669434$
+2023-08-24 14:56:14,051 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $813236$, patternDetLatSum: $26$, totalLatencySum: $813262$, matchedPatternsSum: $2825$
+2023-08-24 14:56:14,433 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $58824$, MB/sec: $4.992805480957031$
+2023-08-24 14:56:15,052 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $946407$, patternDetLatSum: $23$, totalLatencySum: $946430$, matchedPatternsSum: $3245$
+2023-08-24 14:56:15,442 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $55666$, MB/sec: $4.724763870239258$
+2023-08-24 14:56:16,053 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $706285$, patternDetLatSum: $24$, totalLatencySum: $706309$, matchedPatternsSum: $2500$
+2023-08-24 14:56:16,552 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $61587$, MB/sec: $5.227320671081543$
+2023-08-24 14:56:17,052 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $709576$, patternDetLatSum: $17$, totalLatencySum: $709593$, matchedPatternsSum: $2720$
+2023-08-24 14:56:17,552 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $48167$, MB/sec: $4.088271141052246$
+2023-08-24 14:56:18,054 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $638817$, patternDetLatSum: $39$, totalLatencySum: $638856$, matchedPatternsSum: $2240$
+2023-08-24 14:56:18,651 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $52505$, MB/sec: $4.456467628479004$
+2023-08-24 14:56:19,055 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $701783$, patternDetLatSum: $18$, totalLatencySum: $701801$, matchedPatternsSum: $2690$
+2023-08-24 14:56:19,651 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $65191$, MB/sec: $5.533217430114746$
+2023-08-24 14:56:20,062 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $444657$, patternDetLatSum: $31$, totalLatencySum: $444688$, matchedPatternsSum: $2950$
+2023-08-24 14:56:20,882 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $61931$, MB/sec: $5.256518363952637$
+2023-08-24 14:56:21,090 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $678109$, patternDetLatSum: $24$, totalLatencySum: $678133$, matchedPatternsSum: $2605$
+2023-08-24 14:56:22,087 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $53692$, MB/sec: $4.557216644287109$
+2023-08-24 14:56:22,091 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $795386$, patternDetLatSum: $32$, totalLatencySum: $795418$, matchedPatternsSum: $2500$
+2023-08-24 14:56:23,091 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $665879$, patternDetLatSum: $13$, totalLatencySum: $665892$, matchedPatternsSum: $2305$
+2023-08-24 14:56:23,131 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $49348$, MB/sec: $4.188510894775391$
+2023-08-24 14:56:24,093 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $640849$, patternDetLatSum: $54$, totalLatencySum: $640903$, matchedPatternsSum: $2420$
+2023-08-24 14:56:24,233 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $54876$, MB/sec: $4.657711029052734$
+2023-08-24 14:56:25,094 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $522939$, patternDetLatSum: $11$, totalLatencySum: $522950$, matchedPatternsSum: $1990$
+2023-08-24 14:56:25,357 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $46585$, MB/sec: $3.953995704650879$
+2023-08-24 14:56:26,094 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $570408$, patternDetLatSum: $18$, totalLatencySum: $570426$, matchedPatternsSum: $2275$
+2023-08-24 14:56:26,425 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $45663$, MB/sec: $3.875739097595215$
+2023-08-24 14:56:27,136 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $483041$, patternDetLatSum: $20$, totalLatencySum: $483061$, matchedPatternsSum: $2505$
+2023-08-24 14:56:27,454 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $66458$, MB/sec: $5.640756607055664$
+2023-08-24 14:56:28,170 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $887940$, patternDetLatSum: $18$, totalLatencySum: $887958$, matchedPatternsSum: $3235$
+2023-08-24 14:56:28,516 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $66720$, MB/sec: $5.662994384765625$
+2023-08-24 14:56:29,270 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $1077243$, patternDetLatSum: $11$, totalLatencySum: $1077254$, matchedPatternsSum: $3870$
+2023-08-24 14:56:29,579 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $70667$, MB/sec: $5.998003959655762$
+2023-08-24 14:56:30,270 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $657564$, patternDetLatSum: $11$, totalLatencySum: $657575$, matchedPatternsSum: $3630$
+2023-08-24 14:56:30,603 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $70143$, MB/sec: $5.95352840423584$
+2023-08-24 14:56:31,348 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $655125$, patternDetLatSum: $32$, totalLatencySum: $655157$, matchedPatternsSum: $2645$
+2023-08-24 14:56:31,619 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $46320$, MB/sec: $3.9315032958984375$
+2023-08-24 14:56:32,350 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $708209$, patternDetLatSum: $14$, totalLatencySum: $708223$, matchedPatternsSum: $2895$
+2023-08-24 14:56:32,653 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $63167$, MB/sec: $5.36142635345459$
+2023-08-24 14:56:33,350 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $582326$, patternDetLatSum: $16$, totalLatencySum: $582342$, matchedPatternsSum: $3310$
+2023-08-24 14:56:33,653 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $71759$, MB/sec: $6.090689659118652$
+2023-08-24 14:56:34,350 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $675055$, patternDetLatSum: $20$, totalLatencySum: $675075$, matchedPatternsSum: $2275$
+2023-08-24 14:56:34,897 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $55363$, MB/sec: $4.6990461349487305$
+2023-08-24 14:56:35,352 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $748821$, patternDetLatSum: $13$, totalLatencySum: $748834$, matchedPatternsSum: $3495$
+2023-08-24 14:56:35,897 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $69619$, MB/sec: $5.909052848815918$
+2023-08-24 14:56:36,352 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $874538$, patternDetLatSum: $18$, totalLatencySum: $874556$, matchedPatternsSum: $3460$
+2023-08-24 14:56:36,975 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $64610$, MB/sec: $5.483903884887695$
+2023-08-24 14:56:37,352 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $555019$, patternDetLatSum: $52$, totalLatencySum: $555071$, matchedPatternsSum: $2965$
+2023-08-24 14:56:37,975 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $72465$, MB/sec: $6.150612831115723$
+2023-08-24 14:56:38,352 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $791632$, patternDetLatSum: $22$, totalLatencySum: $791654$, matchedPatternsSum: $3106$
+2023-08-24 14:56:39,251 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $57027$, MB/sec: $4.8402814865112305$
+2023-08-24 14:56:39,458 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $855151$, patternDetLatSum: $30$, totalLatencySum: $855181$, matchedPatternsSum: $2339$
+2023-08-24 14:56:40,251 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $42637$, MB/sec: $3.618901252746582$
+2023-08-24 14:56:40,458 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $453010$, patternDetLatSum: $12$, totalLatencySum: $453022$, matchedPatternsSum: $2276$
+2023-08-24 14:56:41,440 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $50928$, MB/sec: $4.3226165771484375$
+2023-08-24 14:56:41,459 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $460770$, patternDetLatSum: $21$, totalLatencySum: $460791$, matchedPatternsSum: $2264$
+2023-08-24 14:56:42,455 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $45401$, MB/sec: $3.853501319885254$
+2023-08-24 14:56:42,461 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $579161$, patternDetLatSum: $29$, totalLatencySum: $579190$, matchedPatternsSum: $2215$
+2023-08-24 14:56:43,524 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $58726$, MB/sec: $4.984487533569336$
+2023-08-24 14:56:43,612 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $742866$, patternDetLatSum: $23$, totalLatencySum: $742889$, matchedPatternsSum: $2980$
+2023-08-24 14:56:44,524 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $90610$, MB/sec: $7.690706253051758$
+2023-08-24 14:56:44,612 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $759627$, patternDetLatSum: $29$, totalLatencySum: $759656$, matchedPatternsSum: $3460$
+2023-08-24 14:56:45,539 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $43716$, MB/sec: $3.7104835510253906$
+2023-08-24 14:56:45,678 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $719770$, patternDetLatSum: $6$, totalLatencySum: $719776$, matchedPatternsSum: $3215$
+2023-08-24 14:56:46,675 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $61193$, MB/sec: $5.193879127502441$
+2023-08-24 14:56:46,682 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $941286$, patternDetLatSum: $24$, totalLatencySum: $941310$, matchedPatternsSum: $3070$
+2023-08-24 14:56:47,682 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $855243$, patternDetLatSum: $26$, totalLatencySum: $855269$, matchedPatternsSum: $2810$
+2023-08-24 14:56:47,859 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $75011$, MB/sec: $6.3667097091674805$
+2023-08-24 14:56:48,682 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $606742$, patternDetLatSum: $22$, totalLatencySum: $606764$, matchedPatternsSum: $2835$
+2023-08-24 14:56:48,912 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $61587$, MB/sec: $5.227320671081543$
+2023-08-24 14:56:49,827 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $944485$, patternDetLatSum: $27$, totalLatencySum: $944512$, matchedPatternsSum: $3185$
+2023-08-24 14:56:50,175 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $70273$, MB/sec: $5.96456241607666$
+2023-08-24 14:56:50,990 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $1261162$, patternDetLatSum: $18$, totalLatencySum: $1261180$, matchedPatternsSum: $3550$
+2023-08-24 14:56:51,206 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $58429$, MB/sec: $4.9592790603637695$
+2023-08-24 14:56:52,039 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $783735$, patternDetLatSum: $27$, totalLatencySum: $783762$, matchedPatternsSum: $2765$
+2023-08-24 14:56:52,399 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $60008$, MB/sec: $5.093299865722656$
+2023-08-24 14:56:53,057 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $734977$, patternDetLatSum: $22$, totalLatencySum: $734999$, matchedPatternsSum: $2565$
+2023-08-24 14:56:53,469 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $63167$, MB/sec: $5.36142635345459$
+2023-08-24 14:56:54,221 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $922936$, patternDetLatSum: $32$, totalLatencySum: $922968$, matchedPatternsSum: $3300$
+2023-08-24 14:56:54,469 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $54346$, MB/sec: $4.612726211547852$
+2023-08-24 14:56:55,221 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $793092$, patternDetLatSum: $37$, totalLatencySum: $793129$, matchedPatternsSum: $3061$
+2023-08-24 14:56:55,472 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $63696$, MB/sec: $5.4063262939453125$
+2023-08-24 14:56:56,221 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $631790$, patternDetLatSum: $28$, totalLatencySum: $631818$, matchedPatternsSum: $2809$
+2023-08-24 14:56:56,472 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $65588$, MB/sec: $5.566913604736328$
+2023-08-24 14:56:57,221 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $751906$, patternDetLatSum: $15$, totalLatencySum: $751921$, matchedPatternsSum: $3245$
+2023-08-24 14:56:57,472 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $71292$, MB/sec: $6.051052093505859$
+2023-08-24 14:56:58,221 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $837975$, patternDetLatSum: $22$, totalLatencySum: $837997$, matchedPatternsSum: $3055$
+2023-08-24 14:56:58,472 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $42070$, MB/sec: $3.5707759857177734$
+2023-08-24 14:56:59,221 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $696392$, patternDetLatSum: $5$, totalLatencySum: $696397$, matchedPatternsSum: $3065$
+2023-08-24 14:56:59,472 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $66818$, MB/sec: $5.67131233215332$
+2023-08-24 14:57:00,221 INFO  util.LatencyLogger                                           [] - eventDetLatSum: $720919$, patternDetLatSum: $47$, totalLatencySum: $720966$, matchedPatternsSum: $2555$
+2023-08-24 14:57:00,485 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - Source: Custom Source -> Timestamps/Watermarks -> Flat Map (1/1) (068b4978a6046ce7e490e44752a65e76) switched from RUNNING to FINISHED.
+2023-08-24 14:57:00,485 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - Freeing task resources for Source: Custom Source -> Timestamps/Watermarks -> Flat Map (1/1) (068b4978a6046ce7e490e44752a65e76).
+2023-08-24 14:57:00,489 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Un-registering task and sending final execution state FINISHED to JobManager for task Source: Custom Source -> Timestamps/Watermarks -> Flat Map (1/1) 068b4978a6046ce7e490e44752a65e76.
+2023-08-24 14:57:00,800 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - GlobalCepOperator (1/1) (7dd333e09bc1fd8b05ebdd567efc8f29) switched from RUNNING to FINISHED.
+2023-08-24 14:57:00,800 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - Freeing task resources for GlobalCepOperator (1/1) (7dd333e09bc1fd8b05ebdd567efc8f29).
+2023-08-24 14:57:00,801 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Un-registering task and sending final execution state FINISHED to JobManager for task GlobalCepOperator (1/1) 7dd333e09bc1fd8b05ebdd567efc8f29.
+2023-08-24 14:57:00,807 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - GlobalCepOperator (1/1) (8e6efc89d8539de7c6f3d455196416c3) switched from RUNNING to FINISHED.
+2023-08-24 14:57:00,807 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - Freeing task resources for GlobalCepOperator (1/1) (8e6efc89d8539de7c6f3d455196416c3).
+2023-08-24 14:57:00,809 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Un-registering task and sending final execution state FINISHED to JobManager for task GlobalCepOperator (1/1) 8e6efc89d8539de7c6f3d455196416c3.
+2023-08-24 14:57:00,844 INFO  org.apache.flink.runtime.taskexecutor.slot.TaskSlotTableImpl [] - Free slot TaskSlot(index:0, state:ACTIVE, resource profile: ResourceProfile{cpuCores=1.0000000000000000, taskHeapMemory=384.000mb (402653174 bytes), taskOffHeapMemory=0 bytes, managedMemory=512.000mb (536870920 bytes), networkMemory=128.000mb (134217730 bytes)}, allocationId: 72c62c40debcec8ffee92049f3b64d25, jobId: 084c6c2bff2e824d6033c5697ced2d0e).
+2023-08-24 14:57:00,846 INFO  org.apache.flink.runtime.taskexecutor.DefaultJobLeaderService [] - Remove job 084c6c2bff2e824d6033c5697ced2d0e from job leader monitoring.
+2023-08-24 14:57:00,847 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Close JobManager connection for job 084c6c2bff2e824d6033c5697ced2d0e.
+2023-08-24 14:57:02,744 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] - RECEIVED SIGNAL 15: SIGTERM. Shutting down as requested.
+2023-08-24 14:57:02,747 INFO  org.apache.flink.runtime.io.disk.FileChannelManagerImpl      [] - FileChannelManager removed spill file directory /tmp/flink-io-e4f9489d-4f7b-4c88-b3e8-a7f27b80d363
+2023-08-24 14:57:02,748 INFO  org.apache.flink.runtime.blob.TransientBlobCache             [] - Shutting down BLOB cache
+2023-08-24 14:57:02,749 INFO  org.apache.flink.runtime.blob.PermanentBlobCache             [] - Shutting down BLOB cache
+2023-08-24 14:57:02,747 INFO  org.apache.flink.runtime.filecache.FileCache                 [] - removed file cache directory /tmp/flink-dist-cache-0ec9f565-3574-4c00-810a-358ef447c4b8
+2023-08-24 14:57:02,747 INFO  org.apache.flink.runtime.state.TaskExecutorLocalStateStoresManager [] - Shutting down TaskExecutorLocalStateStoresManager.
+2023-08-24 14:57:02,749 INFO  org.apache.flink.runtime.io.disk.FileChannelManagerImpl      [] - FileChannelManager removed spill file directory /tmp/flink-netty-shuffle-cf60922a-2125-452d-80ad-e8ce7aa2d56b

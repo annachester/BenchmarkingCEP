@@ -1,0 +1,230 @@
+2023-08-25 17:13:18,137 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] - --------------------------------------------------------------------------------
+2023-08-25 17:13:18,139 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -  Preconfiguration: 
+2023-08-25 17:13:18,140 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] - 
+
+
+TM_RESOURCE_PARAMS extraction logs:
+jvm_params: -Xmx536870902 -Xms536870902 -XX:MaxDirectMemorySize=268435458 -XX:MaxMetaspaceSize=268435456
+dynamic_configs: -D taskmanager.memory.framework.off-heap.size=134217728b -D taskmanager.memory.network.max=134217730b -D taskmanager.memory.network.min=134217730b -D taskmanager.memory.framework.heap.size=134217728b -D taskmanager.memory.managed.size=536870920b -D taskmanager.cpu.cores=1.0 -D taskmanager.memory.task.heap.size=402653174b -D taskmanager.memory.task.off-heap.size=0b 
+logs: WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+INFO  [] - Loading configuration property: jobmanager.rpc.address, localhost
+INFO  [] - Loading configuration property: jobmanager.rpc.port, 6123
+INFO  [] - Loading configuration property: jobmanager.memory.process.size, 1600m
+INFO  [] - Loading configuration property: taskmanager.memory.process.size, 1728m
+INFO  [] - Loading configuration property: taskmanager.numberOfTaskSlots, 1
+INFO  [] - Loading configuration property: parallelism.default, 1
+INFO  [] - Loading configuration property: jobmanager.execution.failover-strategy, region
+INFO  [] - The derived from fraction jvm overhead memory (172.800mb (181193935 bytes)) is less than its min value 192.000mb (201326592 bytes), min value will be used instead
+INFO  [] - Final TaskExecutor Memory configuration:
+INFO  [] -   Total Process Memory:          1.688gb (1811939328 bytes)
+INFO  [] -     Total Flink Memory:          1.250gb (1342177280 bytes)
+INFO  [] -       Total JVM Heap Memory:     512.000mb (536870902 bytes)
+INFO  [] -         Framework:               128.000mb (134217728 bytes)
+INFO  [] -         Task:                    384.000mb (402653174 bytes)
+INFO  [] -       Total Off-heap Memory:     768.000mb (805306378 bytes)
+INFO  [] -         Managed:                 512.000mb (536870920 bytes)
+INFO  [] -         Total JVM Direct Memory: 256.000mb (268435458 bytes)
+INFO  [] -           Framework:             128.000mb (134217728 bytes)
+INFO  [] -           Task:                  0 bytes
+INFO  [] -           Network:               128.000mb (134217730 bytes)
+INFO  [] -     JVM Metaspace:               256.000mb (268435456 bytes)
+INFO  [] -     JVM Overhead:                192.000mb (201326592 bytes)
+
+2023-08-25 17:13:18,140 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] - --------------------------------------------------------------------------------
+2023-08-25 17:13:18,141 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -  Starting TaskManager (Version: 1.11.6, Scala: 2.11, Rev:826a237, Date:2021-12-14T23:38:16+01:00)
+2023-08-25 17:13:18,141 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -  OS current user: mateum97
+2023-08-25 17:13:18,141 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -  Current Hadoop/Kerberos user: <no hadoop dependency found>
+2023-08-25 17:13:18,141 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -  JVM: OpenJDK 64-Bit Server VM - Private Build - 11/11.0.15+10-Ubuntu-0ubuntu0.20.04.1
+2023-08-25 17:13:18,142 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -  Maximum heap size: 512 MiBytes
+2023-08-25 17:13:18,142 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -  JAVA_HOME: (not set)
+2023-08-25 17:13:18,142 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -  No Hadoop Dependency available
+2023-08-25 17:13:18,143 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -  JVM Options:
+2023-08-25 17:13:18,143 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -XX:+UseG1GC
+2023-08-25 17:13:18,143 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -Xmx536870902
+2023-08-25 17:13:18,143 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -Xms536870902
+2023-08-25 17:13:18,144 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -XX:MaxDirectMemorySize=268435458
+2023-08-25 17:13:18,144 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -XX:MaxMetaspaceSize=268435456
+2023-08-25 17:13:18,144 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -Dlog.file=/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/log/flink-mateum97-taskexecutor-37-SERBIA2.log
+2023-08-25 17:13:18,144 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -Dlog4j.configuration=file:/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/conf/log4j.properties
+2023-08-25 17:13:18,144 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -Dlog4j.configurationFile=file:/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/conf/log4j.properties
+2023-08-25 17:13:18,144 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -Dlogback.configurationFile=file:/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/conf/logback.xml
+2023-08-25 17:13:18,145 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -  Program Arguments:
+2023-08-25 17:13:18,147 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     --configDir
+2023-08-25 17:13:18,147 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     /mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/conf
+2023-08-25 17:13:18,147 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -D
+2023-08-25 17:13:18,148 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     taskmanager.memory.framework.off-heap.size=134217728b
+2023-08-25 17:13:18,148 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -D
+2023-08-25 17:13:18,148 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     taskmanager.memory.network.max=134217730b
+2023-08-25 17:13:18,148 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -D
+2023-08-25 17:13:18,149 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     taskmanager.memory.network.min=134217730b
+2023-08-25 17:13:18,149 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -D
+2023-08-25 17:13:18,149 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     taskmanager.memory.framework.heap.size=134217728b
+2023-08-25 17:13:18,149 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -D
+2023-08-25 17:13:18,149 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     taskmanager.memory.managed.size=536870920b
+2023-08-25 17:13:18,150 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -D
+2023-08-25 17:13:18,150 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     taskmanager.cpu.cores=1.0
+2023-08-25 17:13:18,150 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -D
+2023-08-25 17:13:18,150 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     taskmanager.memory.task.heap.size=402653174b
+2023-08-25 17:13:18,150 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     -D
+2023-08-25 17:13:18,151 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -     taskmanager.memory.task.off-heap.size=0b
+2023-08-25 17:13:18,151 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] -  Classpath: /mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/lib/flink-csv-1.11.6.jar:/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/lib/flink-json-1.11.6.jar:/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/lib/flink-shaded-zookeeper-3.4.14.jar:/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/lib/flink-table-blink_2.11-1.11.6.jar:/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/lib/flink-table_2.11-1.11.6.jar:/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/lib/log4j-1.2-api-2.16.0.jar:/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/lib/log4j-api-2.16.0.jar:/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/lib/log4j-core-2.16.0.jar:/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/lib/log4j-slf4j-impl-2.16.0.jar:/mnt/d/TUBerlin/DIMA/BDSPRO/flink-1.11.6/lib/flink-dist_2.11-1.11.6.jar:::
+2023-08-25 17:13:18,151 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] - --------------------------------------------------------------------------------
+2023-08-25 17:13:18,153 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] - Registered UNIX signal handlers for [TERM, HUP, INT]
+2023-08-25 17:13:18,158 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] - Maximum number of open file descriptors is 4096.
+2023-08-25 17:13:18,173 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: jobmanager.rpc.address, localhost
+2023-08-25 17:13:18,174 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: jobmanager.rpc.port, 6123
+2023-08-25 17:13:18,174 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: jobmanager.memory.process.size, 1600m
+2023-08-25 17:13:18,174 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: taskmanager.memory.process.size, 1728m
+2023-08-25 17:13:18,175 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: taskmanager.numberOfTaskSlots, 1
+2023-08-25 17:13:18,175 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: parallelism.default, 1
+2023-08-25 17:13:18,176 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: jobmanager.execution.failover-strategy, region
+2023-08-25 17:13:18,300 INFO  org.apache.flink.core.fs.FileSystem                          [] - Hadoop is not in the classpath/dependencies. The extended set of supported File Systems via Hadoop is not available.
+2023-08-25 17:13:18,387 INFO  org.apache.flink.runtime.security.modules.HadoopModuleFactory [] - Cannot create Hadoop Security Module because Hadoop cannot be found in the Classpath.
+2023-08-25 17:13:18,399 INFO  org.apache.flink.runtime.security.modules.JaasModule         [] - Jaas file will be created as /tmp/jaas-17330826521353133222.conf.
+2023-08-25 17:13:18,409 INFO  org.apache.flink.runtime.security.contexts.HadoopSecurityContextFactory [] - Cannot install HadoopSecurityContext because Hadoop cannot be found in the Classpath.
+2023-08-25 17:13:18,471 INFO  org.apache.flink.configuration.Configuration                 [] - Config uses fallback configuration key 'jobmanager.rpc.address' instead of key 'rest.address'
+2023-08-25 17:13:18,481 INFO  org.apache.flink.runtime.util.LeaderRetrievalUtils           [] - Trying to select the network interface and address to use by connecting to the leading JobManager.
+2023-08-25 17:13:18,481 INFO  org.apache.flink.runtime.util.LeaderRetrievalUtils           [] - TaskManager will try to connect for PT10S before falling back to heuristics
+2023-08-25 17:13:18,563 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] - TaskManager will use hostname/address 'SERBIA2' (127.0.1.1) for communication.
+2023-08-25 17:13:18,573 INFO  org.apache.flink.runtime.rpc.akka.AkkaRpcServiceUtils        [] - Trying to start actor system, external address 127.0.1.1:0, bind address 0.0.0.0:0.
+2023-08-25 17:13:19,468 INFO  akka.event.slf4j.Slf4jLogger                                 [] - Slf4jLogger started
+2023-08-25 17:13:19,599 INFO  akka.remote.Remoting                                         [] - Starting remoting
+2023-08-25 17:13:19,981 INFO  akka.remote.Remoting                                         [] - Remoting started; listening on addresses :[akka.tcp://flink@127.0.1.1:32825]
+2023-08-25 17:13:20,078 INFO  org.apache.flink.runtime.rpc.akka.AkkaRpcServiceUtils        [] - Actor system started at akka.tcp://flink@127.0.1.1:32825
+2023-08-25 17:13:20,110 INFO  org.apache.flink.runtime.metrics.MetricRegistryImpl          [] - No metrics reporter configured, no metrics will be exposed/reported.
+2023-08-25 17:13:20,115 INFO  org.apache.flink.runtime.rpc.akka.AkkaRpcServiceUtils        [] - Trying to start actor system, external address 127.0.1.1:0, bind address 0.0.0.0:0.
+2023-08-25 17:13:20,128 INFO  akka.event.slf4j.Slf4jLogger                                 [] - Slf4jLogger started
+2023-08-25 17:13:20,131 INFO  akka.remote.Remoting                                         [] - Starting remoting
+2023-08-25 17:13:20,142 INFO  akka.remote.Remoting                                         [] - Remoting started; listening on addresses :[akka.tcp://flink-metrics@127.0.1.1:45893]
+2023-08-25 17:13:20,152 INFO  org.apache.flink.runtime.rpc.akka.AkkaRpcServiceUtils        [] - Actor system started at akka.tcp://flink-metrics@127.0.1.1:45893
+2023-08-25 17:13:20,176 INFO  org.apache.flink.runtime.rpc.akka.AkkaRpcService             [] - Starting RPC endpoint for org.apache.flink.runtime.metrics.dump.MetricQueryService at akka://flink-metrics/user/rpc/MetricQueryService_774f5ffe221066254dbad4e98de80bca .
+2023-08-25 17:13:20,208 INFO  org.apache.flink.runtime.blob.PermanentBlobCache             [] - Created BLOB cache storage directory /tmp/blobStore-010d1da4-8b0c-4ba1-a149-9bd30dc940b5
+2023-08-25 17:13:20,212 INFO  org.apache.flink.runtime.blob.TransientBlobCache             [] - Created BLOB cache storage directory /tmp/blobStore-7229e1ab-0fcf-4bc4-8e3d-6a543b0aacc2
+2023-08-25 17:13:20,217 INFO  org.apache.flink.runtime.externalresource.ExternalResourceUtils [] - Enabled external resources: []
+2023-08-25 17:13:20,218 INFO  org.apache.flink.runtime.externalresource.ExternalResourceUtils [] - Enabled external resources: []
+2023-08-25 17:13:20,218 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] - Starting TaskManager with ResourceID: 774f5ffe221066254dbad4e98de80bca
+2023-08-25 17:13:20,246 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerServices    [] - Temporary file directory '/tmp': total 250 GB, usable 233 GB (93.20% usable)
+2023-08-25 17:13:20,251 INFO  org.apache.flink.runtime.io.disk.FileChannelManagerImpl      [] - FileChannelManager uses directory /tmp/flink-io-ccc2fda3-7e5b-4b04-96c5-9992892d1f85 for spill files.
+2023-08-25 17:13:20,261 INFO  org.apache.flink.runtime.io.network.netty.NettyConfig        [] - NettyConfig [server address: /0.0.0.0, server port: 0, ssl enabled: false, memory segment size (bytes): 32768, transport type: AUTO, number of server threads: 1 (manual), number of client threads: 1 (manual), server connect backlog: 0 (use Netty's default), client connect timeout (sec): 120, send/receive buffer size (bytes): 0 (use Netty's default)]
+2023-08-25 17:13:20,266 INFO  org.apache.flink.runtime.io.disk.FileChannelManagerImpl      [] - FileChannelManager uses directory /tmp/flink-netty-shuffle-cfc5bea2-f3cd-4410-b75c-93a6acd62315 for spill files.
+2023-08-25 17:13:20,372 INFO  org.apache.flink.runtime.io.network.buffer.NetworkBufferPool [] - Allocated 128 MB for network buffer pool (number of memory segments: 4096, bytes per segment: 32768).
+2023-08-25 17:13:20,381 INFO  org.apache.flink.runtime.io.network.NettyShuffleEnvironment  [] - Starting the network environment and its components.
+2023-08-25 17:13:20,453 INFO  org.apache.flink.runtime.io.network.netty.NettyClient        [] - Transport type 'auto': using EPOLL.
+2023-08-25 17:13:20,455 INFO  org.apache.flink.runtime.io.network.netty.NettyClient        [] - Successful initialization (took 74 ms).
+2023-08-25 17:13:20,466 INFO  org.apache.flink.runtime.io.network.netty.NettyServer        [] - Transport type 'auto': using EPOLL.
+2023-08-25 17:13:20,589 INFO  org.apache.flink.runtime.io.network.netty.NettyServer        [] - Successful initialization (took 130 ms). Listening on SocketAddress /0:0:0:0:0:0:0:0%0:33333.
+2023-08-25 17:13:20,594 INFO  org.apache.flink.runtime.taskexecutor.KvStateService         [] - Starting the kvState service and its components.
+2023-08-25 17:13:20,669 INFO  org.apache.flink.runtime.rpc.akka.AkkaRpcService             [] - Starting RPC endpoint for org.apache.flink.runtime.taskexecutor.TaskExecutor at akka://flink/user/rpc/taskmanager_0 .
+2023-08-25 17:13:20,690 INFO  org.apache.flink.runtime.taskexecutor.DefaultJobLeaderService [] - Start job leader service.
+2023-08-25 17:13:20,693 INFO  org.apache.flink.runtime.filecache.FileCache                 [] - User file cache uses directory /tmp/flink-dist-cache-651aa1b2-7c9d-498b-b025-3f2bb6217265
+2023-08-25 17:13:20,695 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Connecting to ResourceManager akka.tcp://flink@localhost:6123/user/rpc/resourcemanager_*(00000000000000000000000000000000).
+2023-08-25 17:13:21,020 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Resolved ResourceManager address, beginning registration
+2023-08-25 17:13:21,146 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Successful registration at resource manager akka.tcp://flink@localhost:6123/user/rpc/resourcemanager_* under registration id ee08778595211c485497196170fcf1e7.
+2023-08-25 17:13:23,921 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Receive slot request 38a971a976bfeebcc9cac9b8bd931161 for job 04be84c29870e76106381e5fd9c48625 from resource manager with leader id 00000000000000000000000000000000.
+2023-08-25 17:13:23,928 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Allocated slot for 38a971a976bfeebcc9cac9b8bd931161.
+2023-08-25 17:13:23,930 INFO  org.apache.flink.runtime.taskexecutor.DefaultJobLeaderService [] - Add job 04be84c29870e76106381e5fd9c48625 for job leader monitoring.
+2023-08-25 17:13:23,932 INFO  org.apache.flink.runtime.taskexecutor.DefaultJobLeaderService [] - Try to register at job manager akka.tcp://flink@localhost:6123/user/rpc/jobmanager_2 with leader id 00000000-0000-0000-0000-000000000000.
+2023-08-25 17:13:23,952 INFO  org.apache.flink.runtime.taskexecutor.DefaultJobLeaderService [] - Resolved JobManager address, beginning registration
+2023-08-25 17:13:23,982 INFO  org.apache.flink.runtime.taskexecutor.DefaultJobLeaderService [] - Successful registration at job manager akka.tcp://flink@localhost:6123/user/rpc/jobmanager_2 for job 04be84c29870e76106381e5fd9c48625.
+2023-08-25 17:13:23,982 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Establish JobManager connection for job 04be84c29870e76106381e5fd9c48625.
+2023-08-25 17:13:23,988 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Offer reserved slots to the leader of job 04be84c29870e76106381e5fd9c48625.
+2023-08-25 17:13:24,015 INFO  org.apache.flink.runtime.taskexecutor.slot.TaskSlotTableImpl [] - Activate slot 38a971a976bfeebcc9cac9b8bd931161.
+2023-08-25 17:13:24,034 INFO  org.apache.flink.runtime.taskexecutor.slot.TaskSlotTableImpl [] - Activate slot 38a971a976bfeebcc9cac9b8bd931161.
+2023-08-25 17:13:24,092 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Received task Source: Custom Source -> Timestamps/Watermarks -> (Flat Map, Filter -> Map -> Map -> Timestamps/Watermarks) (1/1).
+2023-08-25 17:13:24,093 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - Source: Custom Source -> Timestamps/Watermarks -> (Flat Map, Filter -> Map -> Map -> Timestamps/Watermarks) (1/1) (5fca7d3110722bd5ad70fa135ca01ff4) switched from CREATED to DEPLOYING.
+2023-08-25 17:13:24,099 INFO  org.apache.flink.runtime.taskexecutor.slot.TaskSlotTableImpl [] - Activate slot 38a971a976bfeebcc9cac9b8bd931161.
+2023-08-25 17:13:24,099 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - Loading JAR files for task Source: Custom Source -> Timestamps/Watermarks -> (Flat Map, Filter -> Map -> Map -> Timestamps/Watermarks) (1/1) (5fca7d3110722bd5ad70fa135ca01ff4) [DEPLOYING].
+2023-08-25 17:13:24,104 INFO  org.apache.flink.runtime.blob.BlobClient                     [] - Downloading 04be84c29870e76106381e5fd9c48625/p-517f850665b7d43c8f30796658a70f54b9755a2b-ceeb50439bceaf9b5e83749d599ea942 from localhost/127.0.0.1:38813
+2023-08-25 17:13:24,113 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Received task Window(SlidingEventTimeWindows(1200000, 60000), EventTimeTrigger, SumAggregator, PassThroughWindowFunction) -> (Filter, Flat Map) (1/1).
+2023-08-25 17:13:24,114 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - Window(SlidingEventTimeWindows(1200000, 60000), EventTimeTrigger, SumAggregator, PassThroughWindowFunction) -> (Filter, Flat Map) (1/1) (75462c94c2989c529209a72bc0a25971) switched from CREATED to DEPLOYING.
+2023-08-25 17:13:24,116 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - Loading JAR files for task Window(SlidingEventTimeWindows(1200000, 60000), EventTimeTrigger, SumAggregator, PassThroughWindowFunction) -> (Filter, Flat Map) (1/1) (75462c94c2989c529209a72bc0a25971) [DEPLOYING].
+2023-08-25 17:13:24,467 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - Registering task at network: Source: Custom Source -> Timestamps/Watermarks -> (Flat Map, Filter -> Map -> Map -> Timestamps/Watermarks) (1/1) (5fca7d3110722bd5ad70fa135ca01ff4) [DEPLOYING].
+2023-08-25 17:13:24,467 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - Registering task at network: Window(SlidingEventTimeWindows(1200000, 60000), EventTimeTrigger, SumAggregator, PassThroughWindowFunction) -> (Filter, Flat Map) (1/1) (75462c94c2989c529209a72bc0a25971) [DEPLOYING].
+2023-08-25 17:13:24,513 INFO  org.apache.flink.streaming.runtime.tasks.StreamTask          [] - No state backend has been configured, using default (Memory / JobManager) MemoryStateBackend (data in heap memory / checkpoints to JobManager) (checkpoints: 'null', savepoints: 'null', asynchronous: TRUE, maxStateSize: 5242880)
+2023-08-25 17:13:24,540 INFO  org.apache.flink.streaming.runtime.tasks.StreamTask          [] - No state backend has been configured, using default (Memory / JobManager) MemoryStateBackend (data in heap memory / checkpoints to JobManager) (checkpoints: 'null', savepoints: 'null', asynchronous: TRUE, maxStateSize: 5242880)
+2023-08-25 17:13:24,543 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - Source: Custom Source -> Timestamps/Watermarks -> (Flat Map, Filter -> Map -> Map -> Timestamps/Watermarks) (1/1) (5fca7d3110722bd5ad70fa135ca01ff4) switched from DEPLOYING to RUNNING.
+2023-08-25 17:13:24,544 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - Window(SlidingEventTimeWindows(1200000, 60000), EventTimeTrigger, SumAggregator, PassThroughWindowFunction) -> (Filter, Flat Map) (1/1) (75462c94c2989c529209a72bc0a25971) switched from DEPLOYING to RUNNING.
+2023-08-25 17:13:24,650 WARN  org.apache.flink.metrics.MetricGroup                         [] - The operator name Window(SlidingEventTimeWindows(1200000, 60000), EventTimeTrigger, SumAggregator, PassThroughWindowFunction) exceeded the 80 characters length limit and was truncated.
+2023-08-25 17:13:24,692 INFO  org.apache.flink.runtime.state.heap.HeapKeyedStateBackend    [] - Initializing heap keyed state backend with stream factory.
+2023-08-25 17:13:24,837 INFO  util.ThroughputLogger                                        [] - $Q7_ITER2Query$ - file loops: $1$, velThreshold: $150$, quaThreshold: $null$, windowSize: $20$, iter: $5$
+2023-08-25 17:13:24,838 INFO  util.ThroughputLogger                                        [] - throughput: $1000000$, workers: $1$, logging frequency: $1$ second
+2023-08-25 17:13:25,140 INFO  util.LatencyLogger_Iter2Query                                [] - Starting Latency Logging for matched patterns with frequency 1 second.
+2023-08-25 17:13:25,838 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $121283$, MB/sec: $10.29413890838623$
+2023-08-25 17:13:26,140 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $40$, patternDetLatSum: $2607795$, totalLatencySum: $2607835$, matchedPatternsSum: $14509$
+2023-08-25 17:13:26,838 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $219505$, MB/sec: $18.630928993225098$
+2023-08-25 17:13:27,327 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $40$, patternDetLatSum: $3461429$, totalLatencySum: $3461469$, matchedPatternsSum: $26352$
+2023-08-25 17:13:27,838 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $264901$, MB/sec: $22.48400592803955$
+2023-08-25 17:13:28,336 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $80$, patternDetLatSum: $3900542$, totalLatencySum: $3900622$, matchedPatternsSum: $26360$
+2023-08-25 17:13:28,840 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $229981$, MB/sec: $19.520100593566895$
+2023-08-25 17:13:29,336 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $40$, patternDetLatSum: $2961708$, totalLatencySum: $2961748$, matchedPatternsSum: $20600$
+2023-08-25 17:13:29,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $168764$, MB/sec: $14.32418441772461$
+2023-08-25 17:13:30,354 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $20$, patternDetLatSum: $2547876$, totalLatencySum: $2547896$, matchedPatternsSum: $19360$
+2023-08-25 17:13:30,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $248776$, MB/sec: $21.11536407470703$
+2023-08-25 17:13:31,546 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $80$, patternDetLatSum: $4101338$, totalLatencySum: $4101418$, matchedPatternsSum: $30460$
+2023-08-25 17:13:31,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $254612$, MB/sec: $21.610706329345703$
+2023-08-25 17:13:32,569 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $0$, patternDetLatSum: $3239059$, totalLatencySum: $3239059$, matchedPatternsSum: $25600$
+2023-08-25 17:13:32,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $219596$, MB/sec: $18.638652801513672$
+2023-08-25 17:13:33,772 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $20$, patternDetLatSum: $3548850$, totalLatencySum: $3548870$, matchedPatternsSum: $26040$
+2023-08-25 17:13:33,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $241748$, MB/sec: $20.518848419189453$
+2023-08-25 17:13:34,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $252460$, MB/sec: $21.428050994873047$
+2023-08-25 17:13:34,973 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $40$, patternDetLatSum: $3953833$, totalLatencySum: $3953873$, matchedPatternsSum: $30180$
+2023-08-25 17:13:35,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $248850$, MB/sec: $21.121644973754883$
+2023-08-25 17:13:36,176 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $20$, patternDetLatSum: $3921385$, totalLatencySum: $3921405$, matchedPatternsSum: $30240$
+2023-08-25 17:13:36,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $242654$, MB/sec: $20.595746994018555$
+2023-08-25 17:13:37,179 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $40$, patternDetLatSum: $3081949$, totalLatencySum: $3081989$, matchedPatternsSum: $24440$
+2023-08-25 17:13:37,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $253887$, MB/sec: $21.54917049407959$
+2023-08-25 17:13:38,180 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $20$, patternDetLatSum: $3199573$, totalLatencySum: $3199593$, matchedPatternsSum: $25740$
+2023-08-25 17:13:38,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $248172$, MB/sec: $21.064098358154297$
+2023-08-25 17:13:39,183 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $0$, patternDetLatSum: $2991979$, totalLatencySum: $2991979$, matchedPatternsSum: $24780$
+2023-08-25 17:13:39,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $249991$, MB/sec: $21.21848964691162$
+2023-08-25 17:13:40,183 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $40$, patternDetLatSum: $3136080$, totalLatencySum: $3136120$, matchedPatternsSum: $26485$
+2023-08-25 17:13:40,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $249054$, MB/sec: $21.138959884643555$
+2023-08-25 17:13:41,186 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $60$, patternDetLatSum: $2518323$, totalLatencySum: $2518383$, matchedPatternsSum: $23735$
+2023-08-25 17:13:41,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $247238$, MB/sec: $20.98482322692871$
+2023-08-25 17:13:42,217 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $40$, patternDetLatSum: $3078672$, totalLatencySum: $3078712$, matchedPatternsSum: $25000$
+2023-08-25 17:13:42,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $248798$, MB/sec: $21.117231369018555$
+2023-08-25 17:13:43,416 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $100$, patternDetLatSum: $3985484$, totalLatencySum: $3985584$, matchedPatternsSum: $30260$
+2023-08-25 17:13:43,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $253258$, MB/sec: $21.49578285217285$
+2023-08-25 17:13:44,445 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $0$, patternDetLatSum: $3353106$, totalLatencySum: $3353106$, matchedPatternsSum: $25260$
+2023-08-25 17:13:44,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $251869$, MB/sec: $21.377888679504395$
+2023-08-25 17:13:45,631 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $20$, patternDetLatSum: $4160179$, totalLatencySum: $4160199$, matchedPatternsSum: $30640$
+2023-08-25 17:13:45,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $253579$, MB/sec: $21.52302837371826$
+2023-08-25 17:13:46,651 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $20$, patternDetLatSum: $3528776$, totalLatencySum: $3528796$, matchedPatternsSum: $25680$
+2023-08-25 17:13:46,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $254896$, MB/sec: $21.634811401367188$
+2023-08-25 17:13:47,667 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $20$, patternDetLatSum: $3302635$, totalLatencySum: $3302655$, matchedPatternsSum: $25560$
+2023-08-25 17:13:47,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $254332$, MB/sec: $21.58694076538086$
+2023-08-25 17:13:48,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $252786$, MB/sec: $21.455720901489258$
+2023-08-25 17:13:48,856 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $0$, patternDetLatSum: $4175227$, totalLatencySum: $4175227$, matchedPatternsSum: $30540$
+2023-08-25 17:13:49,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $252595$, MB/sec: $21.439509391784668$
+2023-08-25 17:13:49,882 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $120$, patternDetLatSum: $3375150$, totalLatencySum: $3375270$, matchedPatternsSum: $25520$
+2023-08-25 17:13:50,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $250598$, MB/sec: $21.270009994506836$
+2023-08-25 17:13:51,080 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $40$, patternDetLatSum: $4243315$, totalLatencySum: $4243355$, matchedPatternsSum: $30320$
+2023-08-25 17:13:51,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $253474$, MB/sec: $21.514116287231445$
+2023-08-25 17:13:52,099 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $60$, patternDetLatSum: $3403058$, totalLatencySum: $3403118$, matchedPatternsSum: $25520$
+2023-08-25 17:13:52,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $256040$, MB/sec: $21.731910705566406$
+2023-08-25 17:13:53,105 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $20$, patternDetLatSum: $3322332$, totalLatencySum: $3322352$, matchedPatternsSum: $25760$
+2023-08-25 17:13:53,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $253875$, MB/sec: $21.548151969909668$
+2023-08-25 17:13:54,284 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $100$, patternDetLatSum: $4084480$, totalLatencySum: $4084580$, matchedPatternsSum: $30880$
+2023-08-25 17:13:54,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $252506$, MB/sec: $21.431955337524414$
+2023-08-25 17:13:55,309 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $40$, patternDetLatSum: $3248821$, totalLatencySum: $3248861$, matchedPatternsSum: $25180$
+2023-08-25 17:13:55,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $223548$, MB/sec: $18.97408676147461$
+2023-08-25 17:13:56,312 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $40$, patternDetLatSum: $2703288$, totalLatencySum: $2703328$, matchedPatternsSum: $19600$
+2023-08-25 17:13:56,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $200946$, MB/sec: $17.055696487426758$
+2023-08-25 17:13:57,315 INFO  util.LatencyLogger_Iter2Query                                [] - eventDetLatSum: $100$, patternDetLatSum: $2840263$, totalLatencySum: $2840363$, matchedPatternsSum: $22220$
+2023-08-25 17:13:57,839 INFO  util.ThroughputLogger                                        [] - Worker $0$, elements/second: $215413$, MB/sec: $18.28361225128174$
+2023-08-25 17:13:58,300 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - Source: Custom Source -> Timestamps/Watermarks -> (Flat Map, Filter -> Map -> Map -> Timestamps/Watermarks) (1/1) (5fca7d3110722bd5ad70fa135ca01ff4) switched from RUNNING to FINISHED.
+2023-08-25 17:13:58,300 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - Freeing task resources for Source: Custom Source -> Timestamps/Watermarks -> (Flat Map, Filter -> Map -> Map -> Timestamps/Watermarks) (1/1) (5fca7d3110722bd5ad70fa135ca01ff4).
+2023-08-25 17:13:58,303 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Un-registering task and sending final execution state FINISHED to JobManager for task Source: Custom Source -> Timestamps/Watermarks -> (Flat Map, Filter -> Map -> Map -> Timestamps/Watermarks) (1/1) 5fca7d3110722bd5ad70fa135ca01ff4.
+2023-08-25 17:13:58,310 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - Window(SlidingEventTimeWindows(1200000, 60000), EventTimeTrigger, SumAggregator, PassThroughWindowFunction) -> (Filter, Flat Map) (1/1) (75462c94c2989c529209a72bc0a25971) switched from RUNNING to FINISHED.
+2023-08-25 17:13:58,312 INFO  org.apache.flink.runtime.taskmanager.Task                    [] - Freeing task resources for Window(SlidingEventTimeWindows(1200000, 60000), EventTimeTrigger, SumAggregator, PassThroughWindowFunction) -> (Filter, Flat Map) (1/1) (75462c94c2989c529209a72bc0a25971).
+2023-08-25 17:13:58,314 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Un-registering task and sending final execution state FINISHED to JobManager for task Window(SlidingEventTimeWindows(1200000, 60000), EventTimeTrigger, SumAggregator, PassThroughWindowFunction) -> (Filter, Flat Map) (1/1) 75462c94c2989c529209a72bc0a25971.
+2023-08-25 17:13:58,358 INFO  org.apache.flink.runtime.taskexecutor.slot.TaskSlotTableImpl [] - Free slot TaskSlot(index:0, state:ACTIVE, resource profile: ResourceProfile{cpuCores=1.0000000000000000, taskHeapMemory=384.000mb (402653174 bytes), taskOffHeapMemory=0 bytes, managedMemory=512.000mb (536870920 bytes), networkMemory=128.000mb (134217730 bytes)}, allocationId: 38a971a976bfeebcc9cac9b8bd931161, jobId: 04be84c29870e76106381e5fd9c48625).
+2023-08-25 17:13:58,364 INFO  org.apache.flink.runtime.taskexecutor.DefaultJobLeaderService [] - Remove job 04be84c29870e76106381e5fd9c48625 from job leader monitoring.
+2023-08-25 17:13:58,366 INFO  org.apache.flink.runtime.taskexecutor.TaskExecutor           [] - Close JobManager connection for job 04be84c29870e76106381e5fd9c48625.
+2023-08-25 17:13:59,400 INFO  org.apache.flink.runtime.taskexecutor.TaskManagerRunner      [] - RECEIVED SIGNAL 15: SIGTERM. Shutting down as requested.
+2023-08-25 17:13:59,402 INFO  org.apache.flink.runtime.state.TaskExecutorLocalStateStoresManager [] - Shutting down TaskExecutorLocalStateStoresManager.
+2023-08-25 17:13:59,403 INFO  org.apache.flink.runtime.blob.TransientBlobCache             [] - Shutting down BLOB cache
+2023-08-25 17:13:59,403 INFO  org.apache.flink.runtime.blob.PermanentBlobCache             [] - Shutting down BLOB cache
+2023-08-25 17:13:59,404 INFO  org.apache.flink.runtime.io.disk.FileChannelManagerImpl      [] - FileChannelManager removed spill file directory /tmp/flink-io-ccc2fda3-7e5b-4b04-96c5-9992892d1f85
+2023-08-25 17:13:59,404 INFO  org.apache.flink.runtime.filecache.FileCache                 [] - removed file cache directory /tmp/flink-dist-cache-651aa1b2-7c9d-498b-b025-3f2bb6217265
+2023-08-25 17:13:59,404 INFO  org.apache.flink.runtime.io.disk.FileChannelManagerImpl      [] - FileChannelManager removed spill file directory /tmp/flink-netty-shuffle-cfc5bea2-f3cd-4410-b75c-93a6acd62315

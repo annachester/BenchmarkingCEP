@@ -1,0 +1,64 @@
+Current time : 24.08.23 14:31:13
+Flink start
+Q1_SEQPattern - throughput: 1000000, runtime: 55
+------------ Flink stopped ------------
+Current time : 24.08.23 14:32:11
+Flink start
+Q1_1_SEQPattern - throughput: 1000000, runtime: 61
+------------ Flink stopped ------------
+Current time : 24.08.23 14:33:16
+Flink start
+Q1_2_SEQPattern - throughput: 1000000, runtime: 50
+------------ Flink stopped ------------
+Current time : 24.08.23 14:34:09
+Flink start
+Q1_SEQQuery - throughput: 1000000, runtime: 54
+------------ Flink stopped ------------
+Current time : 24.08.23 14:35:06
+Flink start
+Q8_SEQPattern - throughput: 1000000, runtime: 84
+------------ Flink stopped ------------
+----------24.08.23 14:44:05------------
+Current time : 24.08.23 14:44:05
+Flink start
+Q8_1_SEQPattern - throughput: 1000000, runtime: 82
+------------ Flink stopped ------------
+Current time : 24.08.23 14:45:33
+Flink start
+Q8_2_SEQPattern - throughput: 1000000, runtime: 54
+------------ Flink stopped ------------
+Current time : 24.08.23 14:46:30
+Flink start
+Q2_ANDPattern - throughput: 1000000, runtime: 79
+------------ Flink stopped ------------
+Current time : 24.08.23 14:47:53
+Flink start
+Q2_ANDQuery - throughput: 1000000, runtime: 57
+------------ Flink stopped ------------
+Current time : 24.08.23 14:48:54
+Flink start
+Q3_ORPattern - throughput: 1000000, runtime: 67
+------------ Flink stopped ------------
+Current time : 24.08.23 14:52:15
+----------24.08.23 14:52:15------------
+loop: 1
+Current time : 24.08.23 14:52:15
+Flink start
+Q3_ORQuery - throughput: 1000000, runtime: 42
+------------ Flink stopped ------------
+Current time : 24.08.23 14:53:00
+Flink start
+Q6_ITERPattern_I1 - iter: 4, throughput: 1000000, runtime: 53
+------------ Flink stopped ------------
+Current time : 24.08.23 14:53:56
+Flink start
+Q6_ITERQuery_I1 - iter: 4, throughput: 1000000, runtime: 40
+------------ Flink stopped ------------
+Current time : 24.08.23 14:54:39
+Flink start
+Q7_ITERPattern_I2 - iter: 4, throughput: 1000000, runtime: 141
+------------ Flink stopped ------------
+Current time : 24.08.23 14:57:02
+Flink start
+Q7_ITERQuery_I2 - iter: 4, throughput: 1000000, runtime: 42
+------------ Flink stopped ------------
