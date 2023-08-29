@@ -96,4 +96,3 @@ public class Q1_SEQPattern {
       System.out.println("The job took " + executionResult.getNetRuntime(TimeUnit.MILLISECONDS) + "ms to execute");
     }
   }
-
